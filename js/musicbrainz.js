@@ -388,7 +388,7 @@ const MusicBrainzClient = {
     convertByBrowserLocale(str) {
         if (!str) return str;
         
-        const lang = navigator.language || navigator.userLanguage || 'zh-CN';
+        const lang = i18n.locale || navigator.language || navigator.userLanguage || 'zh-CN';
         const isTraditionalLocale = lang === 'zh-TW' || lang === 'zh-HK' || lang.startsWith('zh-Hant');
         
         if (isTraditionalLocale) {
