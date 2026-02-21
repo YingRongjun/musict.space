@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Importer musik",
+    "search": "Søg efter musik, kunstner eller album...",
+    "playAll": "Afspil alle",
+    "cancel": "Annuller",
+    "confirm": "Bekræft",
+    "unknownArtist": "Ukendt kunstner",
+    "unknownAlbum": "Ukendt album"
+  },
+  "sidebar": {
+    "allSongs": "Alle sange",
+    "artist": "Kunstner",
+    "album": "Album",
+    "myPlaylist": "Min spilleliste"
+  },
+  "songTable": {
+    "title": "Titel",
+    "artist": "Kunstner",
+    "album": "Album",
+    "duration": "Varighed",
+    "status": "Status",
+    "actions": "Handlinger"
+  },
+  "player": {
+    "notPlaying": "Afspiller ikke",
+    "unknown": "-",
+    "previous": "Forrige",
+    "play": "Afspil",
+    "pause": "Pause",
+    "next": "Næste",
+    "shuffle": "Bland",
+    "repeat": "Gentag",
+    "repeatOne": "Gentag én",
+    "noLyrics": "Ingen sangtekst",
+    "loadingLyrics": "Indlæser..."
+  },
+  "empty": {
+    "noSongs": "Ingen sange",
+    "importHint": "Klik \"Importer musik\" for at tilføje musik"
+  },
+  "actions": {
+    "addToPlaylist": "Tilføj til min spilleliste",
+    "deleteFromLibrary": "Slet fra bibliotek",
+    "deleteFromPlaylist": "Fjern fra min spilleliste"
+  },
+  "pagination": {
+    "page": "Side {current}",
+    "totalPages": "af {total} sider"
+  },
+  "import": {
+    "title": "Importer musik",
+    "fromFolder": "Importer fra mappe",
+    "fromFolderDesc": "Vælg musikfiler fra en lokal mappe",
+    "selectFiles": "Vælg musikfiler",
+    "selectFilesDesc": "Vælg en eller flere musikfiler",
+    "progress": "Importstatus",
+    "importing": "Importerer...",
+    "scanning": "Scanner mappe...",
+    "cancel": "Annuller import",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Forbereder...",
+    "scanningFiles": "Scanner...",
+    "scanningPath": "Scanner: {path}",
+    "parsing": "Analyserer: {file}",
+    "saving": "Gemmer...",
+    "writingDb": "Skriver til database...",
+    "complete": "Færdig",
+    "finished": "Import færdig!",
+    "failed": "Import mislykkedes: {error}",
+    "cancelled": "Import annulleret",
+    "saved": "Gemte {new} nye sange, sprang {dup} dubletter over"
+  },
+  "confirm": {
+    "title": "Bekræft",
+    "deleteFromLibrary": "Slet fra bibliotek",
+    "deleteFromLibraryDesc": "Er du sikker på, at du vil slette {count} valgte sange fra biblioteket?",
+    "deleteSongFromLibrary": "Er du sikker på, at du vil slette \"{title}\" fra biblioteket?",
+    "deleteFromPlaylist": "Fjern fra min spilleliste",
+    "deleteFromPlaylistDesc": "Er du sikker på, at du vil fjerne {count} valgte sange fra min spilleliste?",
+    "deleteSongFromPlaylist": "Er du sikker på, at du vil fjerne \"{title}\" fra min spilleliste?"
+  },
+  "errors": {
+    "permissionRequired": "Filadgangstilladelse påkrævet",
+    "playFailed": "Afspilning mislykkedes",
+    "songNotFound": "Sang ikke fundet",
+    "playFailedTitle": "Kan ikke afspille \"{title}\"",
+    "playFailedRefresh": "Filadgangstilladelse påkrævet efter sideopdatering",
+    "playFailedAction": "Venligst importer sange igen eller klik på godkend-knappen",
+    "authorize": "Godkend adgang",
+    "close": "Luk",
+    "browserNotSupported": "Din browser understøtter ikke mappevalg. Venligst brug den nyeste version af Chrome eller Edge.",
+    "browserNotSupportedFiles": "Din browser understøtter ikke filvalg. Venligst brug den nyeste version af Chrome eller Edge."
+  },
+  "contentTitle": {
+    "allSongs": "Alle sange",
+    "artist": "Kunstner",
+    "album": "Album",
+    "myPlaylist": "Min spilleliste",
+    "artistFilter": "Kunstner: {name}",
+    "albumFilter": "Album: {name}",
+    "searchResults": "Søgeresultater",
+    "songCount": "{count} sange"
+  },
+  "notifications": {
+    "addedToPlaylist": "Tilføjede {count} sange til min spilleliste",
+    "removedFromPlaylist": "Fjernede {count} sange fra min spilleliste",
+    "deletedFromLibrary": "Slettede {count} sange fra biblioteket",
+    "deletedSongFromLibrary": "Slettede \"{title}\" fra biblioteket",
+    "deletedSongFromPlaylist": "Fjernede \"{title}\" fra min spilleliste"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "導入音樂",
+    "search": "搜尋音樂、歌手或專輯...",
+    "playAll": "播放全部",
+    "cancel": "取消",
+    "confirm": "確定",
+    "unknownArtist": "未知藝術家",
+    "unknownAlbum": "未知專輯"
+  },
+  "sidebar": {
+    "allSongs": "全部歌曲",
+    "artist": "藝術家",
+    "album": "專輯",
+    "myPlaylist": "我的歌單"
+  },
+  "songTable": {
+    "title": "歌曲",
+    "artist": "歌手",
+    "album": "專輯",
+    "duration": "時長",
+    "status": "狀態",
+    "actions": "操作"
+  },
+  "player": {
+    "notPlaying": "未播放",
+    "unknown": "-",
+    "previous": "上一首",
+    "play": "播放",
+    "pause": "暫停",
+    "next": "下一首",
+    "shuffle": "隨機播放",
+    "repeat": "循環播放",
+    "repeatOne": "單曲循環",
+    "noLyrics": "暫無歌詞",
+    "loadingLyrics": "載入中..."
+  },
+  "empty": {
+    "noSongs": "暫無歌曲",
+    "importHint": "點擊「導入音樂」開始添加您的音樂"
+  },
+  "actions": {
+    "addToPlaylist": "添加到我的歌單",
+    "deleteFromLibrary": "從音樂庫刪除",
+    "deleteFromPlaylist": "從我的歌單刪除"
+  },
+  "pagination": {
+    "page": "第 {current} 頁",
+    "totalPages": "共 {total} 頁"
+  },
+  "import": {
+    "title": "導入音樂",
+    "fromFolder": "從資料夾導入",
+    "fromFolderDesc": "選擇本地資料夾中的音樂檔案",
+    "selectFiles": "選擇音樂檔案",
+    "selectFilesDesc": "選擇一個或多個音樂檔案",
+    "progress": "導入進度",
+    "importing": "正在導入...",
+    "scanning": "正在掃描資料夾...",
+    "cancel": "取消導入",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "準備導入...",
+    "scanningFiles": "掃描中...",
+    "scanningPath": "正在掃描：{path}",
+    "parsing": "正在解析：{file}",
+    "saving": "保存中...",
+    "writingDb": "正在寫入資料庫...",
+    "complete": "完成",
+    "finished": "導入完成！",
+    "failed": "導入失敗：{error}",
+    "cancelled": "導入已取消",
+    "saved": "已存入 {new} 首新歌曲，跳過 {dup} 首重複"
+  },
+  "confirm": {
+    "title": "確認操作",
+    "deleteFromLibrary": "從音樂庫刪除",
+    "deleteFromLibraryDesc": "確定要從音樂庫刪除選中的 {count} 首歌曲嗎？",
+    "deleteSongFromLibrary": "確定要從音樂庫刪除歌曲\"{title}\"嗎？",
+    "deleteFromPlaylist": "從我的歌單刪除",
+    "deleteFromPlaylistDesc": "確定要從我的歌單刪除選中的 {count} 首歌曲嗎？",
+    "deleteSongFromPlaylist": "確定要從我的歌單刪除歌曲\"{title}\"嗎？"
+  },
+  "errors": {
+    "permissionRequired": "需要授權訪問檔案",
+    "playFailed": "播放失敗",
+    "songNotFound": "歌曲記錄不存在",
+    "playFailedTitle": "無法播放 \"{title}\"",
+    "playFailedRefresh": "頁面刷新後需要重新授權訪問檔案",
+    "playFailedAction": "請重新導入歌曲或點擊授權按鈕",
+    "authorize": "授權訪問",
+    "close": "關閉",
+    "browserNotSupported": "您的瀏覽器不支持資料夾選擇功能，請使用最新版本的 Chrome 或 Edge。",
+    "browserNotSupportedFiles": "您的瀏覽器不支持檔案選擇功能，請使用最新版本的 Chrome 或 Edge。"
+  },
+  "contentTitle": {
+    "allSongs": "全部歌曲",
+    "artist": "藝術家",
+    "album": "專輯",
+    "myPlaylist": "我的歌單",
+    "artistFilter": "藝術家: {name}",
+    "albumFilter": "專輯: {name}",
+    "searchResults": "搜尋結果",
+    "songCount": "{count}首"
+  },
+  "notifications": {
+    "addedToPlaylist": "已添加 {count} 首歌曲到我的歌單",
+    "removedFromPlaylist": "已從我的歌單刪除 {count} 首歌曲",
+    "deletedFromLibrary": "已從音樂庫刪除 {count} 首歌曲",
+    "deletedSongFromLibrary": "已從音樂庫刪除歌曲\"{title}\"",
+    "deletedSongFromPlaylist": "已從我的歌單刪除歌曲\"{title}\""
+  }
+}

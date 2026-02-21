@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Muziek importeren",
+    "search": "Zoek muziek, artiest of album...",
+    "playAll": "Alles afspelen",
+    "cancel": "Annuleren",
+    "confirm": "Bevestigen",
+    "unknownArtist": "Onbekende artiest",
+    "unknownAlbum": "Onbekend album"
+  },
+  "sidebar": {
+    "allSongs": "Alle nummers",
+    "artist": "Artiest",
+    "album": "Album",
+    "myPlaylist": "Mijn afspeellijst"
+  },
+  "songTable": {
+    "title": "Titel",
+    "artist": "Artiest",
+    "album": "Album",
+    "duration": "Duur",
+    "status": "Status",
+    "actions": "Acties"
+  },
+  "player": {
+    "notPlaying": "Niet aan het afspelen",
+    "unknown": "-",
+    "previous": "Vorige",
+    "play": "Afspelen",
+    "pause": "Pauzeren",
+    "next": "Volgende",
+    "shuffle": "Willekeurig",
+    "repeat": "Herhalen",
+    "repeatOne": "Één herhalen",
+    "noLyrics": "Geen tekst",
+    "loadingLyrics": "Laden..."
+  },
+  "empty": {
+    "noSongs": "Geen nummers",
+    "importHint": "Klik op \"Muziek importeren\" om uw muziek toe te voegen"
+  },
+  "actions": {
+    "addToPlaylist": "Toevoegen aan mijn afspeellijst",
+    "deleteFromLibrary": "Verwijderen uit bibliotheek",
+    "deleteFromPlaylist": "Verwijderen uit mijn afspeellijst"
+  },
+  "pagination": {
+    "page": "Pagina {current}",
+    "totalPages": "van {total}"
+  },
+  "import": {
+    "title": "Muziek importeren",
+    "fromFolder": "Importeren uit map",
+    "fromFolderDesc": "Selecteer muziekbestanden uit een lokale map",
+    "selectFiles": "Bestanden selecteren",
+    "selectFilesDesc": "Selecteer een of meer muziekbestanden",
+    "progress": "Importvoortgang",
+    "importing": "Importeren...",
+    "scanning": "Map scannen...",
+    "cancel": "Import annuleren",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Voorbereiden...",
+    "scanningFiles": "Scannen...",
+    "scanningPath": "Scannen: {path}",
+    "parsing": "Verwerken: {file}",
+    "saving": "Opslaan...",
+    "writingDb": "Naar database schrijven...",
+    "complete": "Voltooid",
+    "finished": "Import voltooid!",
+    "failed": "Import mislukt: {error}",
+    "cancelled": "Import geannuleerd",
+    "saved": "{new} nieuwe nummers toegevoegd, {dup} duplicaten overgeslagen"
+  },
+  "confirm": {
+    "title": "Bevestiging",
+    "deleteFromLibrary": "Verwijderen uit bibliotheek",
+    "deleteFromLibraryDesc": "Weet u zeker dat u {count} geselecteerde nummers uit de bibliotheek wilt verwijderen?",
+    "deleteSongFromLibrary": "Weet u zeker dat u \"{title}\" uit de bibliotheek wilt verwijderen?",
+    "deleteFromPlaylist": "Verwijderen uit mijn afspeellijst",
+    "deleteFromPlaylistDesc": "Weet u zeker dat u {count} geselecteerde nummers uit mijn afspeellijst wilt verwijderen?",
+    "deleteSongFromPlaylist": "Weet u zeker dat u \"{title}\" uit mijn afspeellijst wilt verwijderen?"
+  },
+  "errors": {
+    "permissionRequired": "Bestandstoegangsmachtiging vereist",
+    "playFailed": "Afspelen mislukt",
+    "songNotFound": "Nummer niet gevonden",
+    "playFailedTitle": "Kan \"{title}\" niet afspelen",
+    "playFailedRefresh": "Bestandstoegangsmachtiging vereist na pagina-vernieuwing",
+    "playFailedAction": "Importeer nummers opnieuw of klik op de autorisatieknop",
+    "authorize": "Toegang autoriseren",
+    "close": "Sluiten",
+    "browserNotSupported": "Uw browser ondersteunt geen mapselectie. Gebruik de nieuwste versie van Chrome of Edge.",
+    "browserNotSupportedFiles": "Uw browser ondersteunt geen bestandsselectie. Gebruik de nieuwste versie van Chrome of Edge."
+  },
+  "contentTitle": {
+    "allSongs": "Alle nummers",
+    "artist": "Artiest",
+    "album": "Album",
+    "myPlaylist": "Mijn afspeellijst",
+    "artistFilter": "Artiest: {name}",
+    "albumFilter": "Album: {name}",
+    "searchResults": "Zoekresultaten",
+    "songCount": "{count} nummers"
+  },
+  "notifications": {
+    "addedToPlaylist": "{count} nummers toegevoegd aan mijn afspeellijst",
+    "removedFromPlaylist": "{count} nummers verwijderd uit mijn afspeellijst",
+    "deletedFromLibrary": "{count} nummers verwijderd uit bibliotheek",
+    "deletedSongFromLibrary": "\"{title}\" verwijderd uit bibliotheek",
+    "deletedSongFromPlaylist": "\"{title}\" verwijderd uit mijn afspeellijst"
+  }
+}

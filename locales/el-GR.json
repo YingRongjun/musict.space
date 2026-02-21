@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Εισαγωγή μουσικής",
+    "search": "Αναζήτηση μουσικής, καλλιτέχνη ή άλμπουμ...",
+    "playAll": "Αναπαραγωγή όλων",
+    "cancel": "Ακύρωση",
+    "confirm": "Επιβεβαίωση",
+    "unknownArtist": "Άγνωστος καλλιτέχνης",
+    "unknownAlbum": "Άγνωστο άλμπουμ"
+  },
+  "sidebar": {
+    "allSongs": "Όλα τα τραγούδια",
+    "artist": "Καλλιτέχνης",
+    "album": "Άλμπουμ",
+    "myPlaylist": "Η λίστα μου"
+  },
+  "songTable": {
+    "title": "Τίτλος",
+    "artist": "Καλλιτέχνης",
+    "album": "Άλμπουμ",
+    "duration": "Διάρκεια",
+    "status": "Κατάσταση",
+    "actions": "Ενέργειες"
+  },
+  "player": {
+    "notPlaying": "Δεν αναπαράγεται",
+    "unknown": "-",
+    "previous": "Προηγούμενο",
+    "play": "Αναπαραγωγή",
+    "pause": "Παύση",
+    "next": "Επόμενο",
+    "shuffle": "Τυχαία",
+    "repeat": "Επανάληψη",
+    "repeatOne": "Επανάληψη ενός",
+    "noLyrics": "Χωρίς στίχους",
+    "loadingLyrics": "Φόρτωση..."
+  },
+  "empty": {
+    "noSongs": "Κανένα τραγούδι",
+    "importHint": "Κάντε κλικ στο \"Εισαγωγή μουσικής\" για να προσθέσετε μουσική"
+  },
+  "actions": {
+    "addToPlaylist": "Προσθήκη στη λίστα μου",
+    "deleteFromLibrary": "Διαγραφή από τη βιβλιοθήκη",
+    "deleteFromPlaylist": "Αφαίρεση από τη λίστα μου"
+  },
+  "pagination": {
+    "page": "Σελίδα {current}",
+    "totalPages": "από {total} σελίδες"
+  },
+  "import": {
+    "title": "Εισαγωγή μουσικής",
+    "fromFolder": "Εισαγωγή από φάκελο",
+    "fromFolderDesc": "Επιλέξτε αρχεία μουσικής από τοπικό φάκελο",
+    "selectFiles": "Επιλογή αρχείων μουσικής",
+    "selectFilesDesc": "Επιλέξτε ένα ή περισσότερα αρχεία μουσικής",
+    "progress": "Πρόοδος εισαγωγής",
+    "importing": "Εισαγωγή...",
+    "scanning": "Σάρωση φακέλου...",
+    "cancel": "Ακύρωση εισαγωγής",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Προετοιμασία...",
+    "scanningFiles": "Σάρωση...",
+    "scanningPath": "Σάρωση: {path}",
+    "parsing": "Ανάλυση: {file}",
+    "saving": "Αποθήκευση...",
+    "writingDb": "Εγγραφή στη βάση δεδομένων...",
+    "complete": "Ολοκληρώθηκε",
+    "finished": "Η εισαγωγή ολοκληρώθηκε!",
+    "failed": "Η εισαγωγή απέτυχε: {error}",
+    "cancelled": "Η εισαγωγή ακυρώθηκε",
+    "saved": "Αποθηκεύτηκαν {new} νέα τραγούδια, παραλείφθηκαν {dup} διπλότυπα"
+  },
+  "confirm": {
+    "title": "Επιβεβαίωση",
+    "deleteFromLibrary": "Διαγραφή από τη βιβλιοθήκη",
+    "deleteFromLibraryDesc": "Είστε σίγουροι ότι θέλετε να διαγράψετε {count} επιλεγμένα τραγούδια από τη βιβλιοθήκη;",
+    "deleteSongFromLibrary": "Είστε σίγουροι ότι θέλετε να διαγράψετε το \"{title}\" από τη βιβλιοθήκη;",
+    "deleteFromPlaylist": "Αφαίρεση από τη λίστα μου",
+    "deleteFromPlaylistDesc": "Είστε σίγουροι ότι θέλετε να αφαιρέσετε {count} επιλεγμένα τραγούδια από τη λίστα μου;",
+    "deleteSongFromPlaylist": "Είστε σίγουροι ότι θέλετε να αφαιρέσετε το \"{title}\" από τη λίστα μου;"
+  },
+  "errors": {
+    "permissionRequired": "Απαιτείται άδεια πρόσβασης αρχείων",
+    "playFailed": "Η αναπαραγωγή απέτυχε",
+    "songNotFound": "Το τραγούδι δεν βρέθηκε",
+    "playFailedTitle": "Δεν είναι δυνατή η αναπαραγωγή του \"{title}\"",
+    "playFailedRefresh": "Απαιτείται άδεια πρόσβασης αρχείων μετά την ανανέωση της σελίδας",
+    "playFailedAction": "Παρακαλώ επανεισάγετε τα τραγούδια ή κάντε κλικ στο κουμπί εξουσιοδότησης",
+    "authorize": "Εξουσιοδότηση πρόσβασης",
+    "close": "Κλείσιμο",
+    "browserNotSupported": "Ο browser σας δεν υποστηρίζει επιλογή φακέλου. Παρακαλώ χρησιμοποιήστε την τελευταία έκδοση του Chrome ή Edge.",
+    "browserNotSupportedFiles": "Ο browser σας δεν υποστηρίζει επιλογή αρχείων. Παρακαλώ χρησιμοποιήστε την τελευταία έκδοση του Chrome ή Edge."
+  },
+  "contentTitle": {
+    "allSongs": "Όλα τα τραγούδια",
+    "artist": "Καλλιτέχνης",
+    "album": "Άλμπουμ",
+    "myPlaylist": "Η λίστα μου",
+    "artistFilter": "Καλλιτέχνης: {name}",
+    "albumFilter": "Άλμπουμ: {name}",
+    "searchResults": "Αποτελέσματα αναζήτησης",
+    "songCount": "{count} τραγούδια"
+  },
+  "notifications": {
+    "addedToPlaylist": "Προστέθηκαν {count} τραγούδια στη λίστα μου",
+    "removedFromPlaylist": "Αφαιρέθηκαν {count} τραγούδια από τη λίστα μου",
+    "deletedFromLibrary": "Διαγράφηκαν {count} τραγούδια από τη βιβλιοθήκη",
+    "deletedSongFromLibrary": "Διαγράφηκε το \"{title}\" από τη βιβλιοθήκη",
+    "deletedSongFromPlaylist": "Αφαιρέθηκε το \"{title}\" από τη λίστα μου"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Müziği İçe Aktar",
+    "search": "Müzik, sanatçı veya albüm ara...",
+    "playAll": "Tümünü Oynat",
+    "cancel": "İptal",
+    "confirm": "Onayla",
+    "unknownArtist": "Bilinmeyen Sanatçı",
+    "unknownAlbum": "Bilinmeyen Albüm"
+  },
+  "sidebar": {
+    "allSongs": "Tüm Şarkılar",
+    "artist": "Sanatçı",
+    "album": "Albüm",
+    "myPlaylist": "Çalma Listem"
+  },
+  "songTable": {
+    "title": "Başlık",
+    "artist": "Sanatçı",
+    "album": "Albüm",
+    "duration": "Süre",
+    "status": "Durum",
+    "actions": "İşlemler"
+  },
+  "player": {
+    "notPlaying": "Oynatılmıyor",
+    "unknown": "-",
+    "previous": "Önceki",
+    "play": "Oynat",
+    "pause": "Duraklat",
+    "next": "Sonraki",
+    "shuffle": "Karıştır",
+    "repeat": "Tekrarla",
+    "repeatOne": "Birini Tekrarla",
+    "noLyrics": "Şarkı Sözü Yok",
+    "loadingLyrics": "Yükleniyor..."
+  },
+  "empty": {
+    "noSongs": "Şarkı Yok",
+    "importHint": "Müzik eklemek için \"Müziği İçe Aktar\" tıklayın"
+  },
+  "actions": {
+    "addToPlaylist": "Çalma Listeme Ekle",
+    "deleteFromLibrary": "Kitaplıktan Sil",
+    "deleteFromPlaylist": "Çalma Listemden Kaldır"
+  },
+  "pagination": {
+    "page": "Sayfa {current}",
+    "totalPages": "/ {total} sayfa"
+  },
+  "import": {
+    "title": "Müziği İçe Aktar",
+    "fromFolder": "Klasörden İçe Aktar",
+    "fromFolderDesc": "Yerel bir klasörden müzik dosyaları seçin",
+    "selectFiles": "Müzik Dosyalarını Seç",
+    "selectFilesDesc": "Bir veya daha fazla müzik dosyası seçin",
+    "progress": "İçe Aktarma İlerlemesi",
+    "importing": "İçe Aktarılıyor...",
+    "scanning": "Klasör taranıyor...",
+    "cancel": "İçe Aktarmayı İptal Et",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Hazırlanıyor...",
+    "scanningFiles": "Taranıyor...",
+    "scanningPath": "Taranıyor: {path}",
+    "parsing": "Ayrıştırılıyor: {file}",
+    "saving": "Kaydediliyor...",
+    "writingDb": "Veritabanına yazılıyor...",
+    "complete": "Tamamlandı",
+    "finished": "İçe aktarma tamamlandı!",
+    "failed": "İçe aktarma başarısız: {error}",
+    "cancelled": "İçe aktarma iptal edildi",
+    "saved": "{new} yeni şarkı kaydedildi, {dup} kopya atlandı"
+  },
+  "confirm": {
+    "title": "Onayla",
+    "deleteFromLibrary": "Kitaplıktan Sil",
+    "deleteFromLibraryDesc": "Seçilen {count} şarkıyı kitaplıktan silmek istediğinizden emin misiniz?",
+    "deleteSongFromLibrary": "\"{title}\" şarkısını kitaplıktan silmek istediğinizden emin misiniz?",
+    "deleteFromPlaylist": "Çalma Listemden Kaldır",
+    "deleteFromPlaylistDesc": "Seçilen {count} şarkıyı çalma listemden kaldırmak istediğinizden emin misiniz?",
+    "deleteSongFromPlaylist": "\"{title}\" şarkısını çalma listemden kaldırmak istediğinizden emin misiniz?"
+  },
+  "errors": {
+    "permissionRequired": "Dosya erişim izni gerekli",
+    "playFailed": "Oynatma başarısız",
+    "songNotFound": "Şarkı bulunamadı",
+    "playFailedTitle": "\"{title}\" oynatılamıyor",
+    "playFailedRefresh": "Sayfa yenilendikten sonra dosya erişim izni gerekli",
+    "playFailedAction": "Lütfen şarkıları tekrar içe aktarın veya yetkilendir düğmesine tıklayın",
+    "authorize": "Erişimi Yetkilendir",
+    "close": "Kapat",
+    "browserNotSupported": "Tarayıcınız klasör seçimini desteklemiyor. Lütfen Chrome veya Edge'in en son sürümünü kullanın.",
+    "browserNotSupportedFiles": "Tarayıcınız dosya seçimini desteklemiyor. Lütfen Chrome veya Edge'in en son sürümünü kullanın."
+  },
+  "contentTitle": {
+    "allSongs": "Tüm Şarkılar",
+    "artist": "Sanatçı",
+    "album": "Albüm",
+    "myPlaylist": "Çalma Listem",
+    "artistFilter": "Sanatçı: {name}",
+    "albumFilter": "Albüm: {name}",
+    "searchResults": "Arama Sonuçları",
+    "songCount": "{count} şarkı"
+  },
+  "notifications": {
+    "addedToPlaylist": "Çalma listeme {count} şarkı eklendi",
+    "removedFromPlaylist": "Çalma listemden {count} şarkı kaldırıldı",
+    "deletedFromLibrary": "Kitaplıktan {count} şarkı silindi",
+    "deletedSongFromLibrary": "Kitaplıktan \"{title}\" silindi",
+    "deletedSongFromPlaylist": "Çalma listemden \"{title}\" kaldırıldı"
+  }
+}

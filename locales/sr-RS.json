@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Uvezi muziku",
+    "search": "Pretraži muziku, izvođača ili album...",
+    "playAll": "Reprodukuj sve",
+    "cancel": "Otkaži",
+    "confirm": "Potvrdi",
+    "unknownArtist": "Nepoznat izvođač",
+    "unknownAlbum": "Nepoznat album"
+  },
+  "sidebar": {
+    "allSongs": "Sve pesme",
+    "artist": "Izvođač",
+    "album": "Album",
+    "myPlaylist": "Moja plejlista"
+  },
+  "songTable": {
+    "title": "Naslov",
+    "artist": "Izvođač",
+    "album": "Album",
+    "duration": "Trajanje",
+    "status": "Status",
+    "actions": "Akcije"
+  },
+  "player": {
+    "notPlaying": "Ne reprodukuje se",
+    "unknown": "-",
+    "previous": "Prethodna",
+    "play": "Reprodukcija",
+    "pause": "Pauza",
+    "next": "Sledeća",
+    "shuffle": "Nasumično",
+    "repeat": "Ponovi",
+    "repeatOne": "Ponovi jednu",
+    "noLyrics": "Bez teksta",
+    "loadingLyrics": "Učitavanje..."
+  },
+  "empty": {
+    "noSongs": "Nema pesama",
+    "importHint": "Kliknite \"Uvezi muziku\" da dodate muziku"
+  },
+  "actions": {
+    "addToPlaylist": "Dodaj u moju plejlistu",
+    "deleteFromLibrary": "Obriši iz biblioteke",
+    "deleteFromPlaylist": "Ukloni iz moje plejliste"
+  },
+  "pagination": {
+    "page": "Strana {current}",
+    "totalPages": "od {total} strana"
+  },
+  "import": {
+    "title": "Uvezi muziku",
+    "fromFolder": "Uvezi iz fascikle",
+    "fromFolderDesc": "Izaberite muzičke datoteke iz lokalne fascikle",
+    "selectFiles": "Izaberite muzičke datoteke",
+    "selectFilesDesc": "Izaberite jednu ili više muzičkih datoteka",
+    "progress": "Napredak uvoza",
+    "importing": "Uvoz...",
+    "scanning": "Skeniranje fascikle...",
+    "cancel": "Otkaži uvoz",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Priprema...",
+    "scanningFiles": "Skeniranje...",
+    "scanningPath": "Skeniranje: {path}",
+    "parsing": "Analiza: {file}",
+    "saving": "Čuvanje...",
+    "writingDb": "Upis u bazu podataka...",
+    "complete": "Završeno",
+    "finished": "Uvoz završen!",
+    "failed": "Uvoz nije uspeo: {error}",
+    "cancelled": "Uvoz otkazan",
+    "saved": "Sačuvano {new} novih pesama, preskočeno {dup} duplikata"
+  },
+  "confirm": {
+    "title": "Potvrdi",
+    "deleteFromLibrary": "Obriši iz biblioteke",
+    "deleteFromLibraryDesc": "Da li ste sigurni da želite da obrišete {count} izabranih pesama iz biblioteke?",
+    "deleteSongFromLibrary": "Da li ste sigurni da želite da obrišete \"{title}\" iz biblioteke?",
+    "deleteFromPlaylist": "Ukloni iz moje plejliste",
+    "deleteFromPlaylistDesc": "Da li ste sigurni da želite da uklonite {count} izabranih pesama iz moje plejliste?",
+    "deleteSongFromPlaylist": "Da li ste sigurni da želite da uklonite \"{title}\" iz moje plejliste?"
+  },
+  "errors": {
+    "permissionRequired": "Potrebna dozvola za pristup datotekama",
+    "playFailed": "Reprodukcija nije uspela",
+    "songNotFound": "Pesma nije pronađena",
+    "playFailedTitle": "Nije moguće reprodukovati \"{title}\"",
+    "playFailedRefresh": "Potrebna dozvola za pristup datotekama nakon osvežavanja stranice",
+    "playFailedAction": "Molimo ponovo uvezite pesme ili kliknite dugme za autorizaciju",
+    "authorize": "Autorizuj pristup",
+    "close": "Zatvori",
+    "browserNotSupported": "Vaš pretraživač ne podržava izbor fascikle. Molimo koristite najnoviju verziju Chrome ili Edge.",
+    "browserNotSupportedFiles": "Vaš pretraživač ne podržava izbor datoteka. Molimo koristite najnoviju verziju Chrome ili Edge."
+  },
+  "contentTitle": {
+    "allSongs": "Sve pesme",
+    "artist": "Izvođač",
+    "album": "Album",
+    "myPlaylist": "Moja plejlista",
+    "artistFilter": "Izvođač: {name}",
+    "albumFilter": "Album: {name}",
+    "searchResults": "Rezultati pretrage",
+    "songCount": "{count} pesama"
+  },
+  "notifications": {
+    "addedToPlaylist": "Dodato {count} pesama u moju plejlistu",
+    "removedFromPlaylist": "Uklonjeno {count} pesama iz moje plejliste",
+    "deletedFromLibrary": "Obrisano {count} pesama iz biblioteke",
+    "deletedSongFromLibrary": "Obrisana \"{title}\" iz biblioteke",
+    "deletedSongFromPlaylist": "Uklonjena \"{title}\" iz moje plejliste"
+  }
+}

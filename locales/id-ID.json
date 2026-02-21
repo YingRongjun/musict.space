@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Impor Musik",
+    "search": "Cari musik, artis, atau album...",
+    "playAll": "Putar Semua",
+    "cancel": "Batal",
+    "confirm": "Konfirmasi",
+    "unknownArtist": "Artis Tidak Dikenal",
+    "unknownAlbum": "Album Tidak Dikenal"
+  },
+  "sidebar": {
+    "allSongs": "Semua Lagu",
+    "artist": "Artis",
+    "album": "Album",
+    "myPlaylist": "Daftar Putar Saya"
+  },
+  "songTable": {
+    "title": "Judul",
+    "artist": "Artis",
+    "album": "Album",
+    "duration": "Durasi",
+    "status": "Status",
+    "actions": "Aksi"
+  },
+  "player": {
+    "notPlaying": "Tidak Memutar",
+    "unknown": "-",
+    "previous": "Sebelumnya",
+    "play": "Putar",
+    "pause": "Jeda",
+    "next": "Selanjutnya",
+    "shuffle": "Acak",
+    "repeat": "Ulang",
+    "repeatOne": "Ulang Satu",
+    "noLyrics": "Tidak Ada Lirik",
+    "loadingLyrics": "Memuat..."
+  },
+  "empty": {
+    "noSongs": "Tidak Ada Lagu",
+    "importHint": "Klik \"Impor Musik\" untuk menambah musik"
+  },
+  "actions": {
+    "addToPlaylist": "Tambah ke Daftar Putar Saya",
+    "deleteFromLibrary": "Hapus dari Pustaka",
+    "deleteFromPlaylist": "Hapus dari Daftar Putar Saya"
+  },
+  "pagination": {
+    "page": "Halaman {current}",
+    "totalPages": "dari {total} halaman"
+  },
+  "import": {
+    "title": "Impor Musik",
+    "fromFolder": "Impor dari Folder",
+    "fromFolderDesc": "Pilih file musik dari folder lokal",
+    "selectFiles": "Pilih File Musik",
+    "selectFilesDesc": "Pilih satu atau lebih file musik",
+    "progress": "Kemajuan Impor",
+    "importing": "Mengimpor...",
+    "scanning": "Memindai folder...",
+    "cancel": "Batalkan Impor",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Mempersiapkan...",
+    "scanningFiles": "Memindai...",
+    "scanningPath": "Memindai: {path}",
+    "parsing": "Mengurai: {file}",
+    "saving": "Menyimpan...",
+    "writingDb": "Menulis ke database...",
+    "complete": "Selesai",
+    "finished": "Impor selesai!",
+    "failed": "Impor gagal: {error}",
+    "cancelled": "Impor dibatalkan",
+    "saved": "Disimpan {new} lagu baru, dilewati {dup} duplikat"
+  },
+  "confirm": {
+    "title": "Konfirmasi",
+    "deleteFromLibrary": "Hapus dari Pustaka",
+    "deleteFromLibraryDesc": "Apakah Anda yakin ingin menghapus {count} lagu yang dipilih dari pustaka?",
+    "deleteSongFromLibrary": "Apakah Anda yakin ingin menghapus \"{title}\" dari pustaka?",
+    "deleteFromPlaylist": "Hapus dari Daftar Putar Saya",
+    "deleteFromPlaylistDesc": "Apakah Anda yakin ingin menghapus {count} lagu yang dipilih dari daftar putar saya?",
+    "deleteSongFromPlaylist": "Apakah Anda yakin ingin menghapus \"{title}\" dari daftar putar saya?"
+  },
+  "errors": {
+    "permissionRequired": "Izin akses file diperlukan",
+    "playFailed": "Pemutaran gagal",
+    "songNotFound": "Lagu tidak ditemukan",
+    "playFailedTitle": "Tidak dapat memutar \"{title}\"",
+    "playFailedRefresh": "Izin akses file diperlukan setelah memuat ulang halaman",
+    "playFailedAction": "Silakan impor lagu lagi atau klik tombol izinkan",
+    "authorize": "Izinkan Akses",
+    "close": "Tutup",
+    "browserNotSupported": "Browser Anda tidak mendukung pemilihan folder. Silakan gunakan versi Chrome atau Edge terbaru.",
+    "browserNotSupportedFiles": "Browser Anda tidak mendukung pemilihan file. Silakan gunakan versi Chrome atau Edge terbaru."
+  },
+  "contentTitle": {
+    "allSongs": "Semua Lagu",
+    "artist": "Artis",
+    "album": "Album",
+    "myPlaylist": "Daftar Putar Saya",
+    "artistFilter": "Artis: {name}",
+    "albumFilter": "Album: {name}",
+    "searchResults": "Hasil Pencarian",
+    "songCount": "{count} lagu"
+  },
+  "notifications": {
+    "addedToPlaylist": "Ditambahkan {count} lagu ke daftar putar saya",
+    "removedFromPlaylist": "Dihapus {count} lagu dari daftar putar saya",
+    "deletedFromLibrary": "Dihapus {count} lagu dari pustaka",
+    "deletedSongFromLibrary": "Dihapus \"{title}\" dari pustaka",
+    "deletedSongFromPlaylist": "Dihapus \"{title}\" dari daftar putar saya"
+  }
+}

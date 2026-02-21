@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Importar música",
+    "search": "Cercar música, artista o àlbum...",
+    "playAll": "Reproduir tot",
+    "cancel": "Cancel·lar",
+    "confirm": "Confirmar",
+    "unknownArtist": "Artista desconegut",
+    "unknownAlbum": "Àlbum desconegut"
+  },
+  "sidebar": {
+    "allSongs": "Totes les cançons",
+    "artist": "Artista",
+    "album": "Àlbum",
+    "myPlaylist": "La meva llista de reproducció"
+  },
+  "songTable": {
+    "title": "Títol",
+    "artist": "Artista",
+    "album": "Àlbum",
+    "duration": "Durada",
+    "status": "Estat",
+    "actions": "Accions"
+  },
+  "player": {
+    "notPlaying": "No reproduint",
+    "unknown": "-",
+    "previous": "Anterior",
+    "play": "Reproduir",
+    "pause": "Pausa",
+    "next": "Següent",
+    "shuffle": "Aleatori",
+    "repeat": "Repetir",
+    "repeatOne": "Repetir una",
+    "noLyrics": "Sense lletra",
+    "loadingLyrics": "Carregant..."
+  },
+  "empty": {
+    "noSongs": "Sense cançons",
+    "importHint": "Clica \"Importar música\" per afegir música"
+  },
+  "actions": {
+    "addToPlaylist": "Afegir a la meva llista",
+    "deleteFromLibrary": "Eliminar de la biblioteca",
+    "deleteFromPlaylist": "Treure de la meva llista"
+  },
+  "pagination": {
+    "page": "Pàgina {current}",
+    "totalPages": "de {total} pàgines"
+  },
+  "import": {
+    "title": "Importar música",
+    "fromFolder": "Importar des de carpeta",
+    "fromFolderDesc": "Selecciona fitxers de música d'una carpeta local",
+    "selectFiles": "Seleccionar fitxers de música",
+    "selectFilesDesc": "Selecciona un o més fitxers de música",
+    "progress": "Progrés d'importació",
+    "importing": "Important...",
+    "scanning": "Escanejant carpeta...",
+    "cancel": "Cancel·lar importació",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Preparant...",
+    "scanningFiles": "Escanejant...",
+    "scanningPath": "Escanejant: {path}",
+    "parsing": "Analitzant: {file}",
+    "saving": "Desant...",
+    "writingDb": "Escrivint a la base de dades...",
+    "complete": "Completat",
+    "finished": "Importació completada!",
+    "failed": "Importació fallida: {error}",
+    "cancelled": "Importació cancel·lada",
+    "saved": "Desades {new} cançons noves, omeses {dup} duplicades"
+  },
+  "confirm": {
+    "title": "Confirmar",
+    "deleteFromLibrary": "Eliminar de la biblioteca",
+    "deleteFromLibraryDesc": "Estàs segur que vols eliminar {count} cançons seleccionades de la biblioteca?",
+    "deleteSongFromLibrary": "Estàs segur que vols eliminar \"{title}\" de la biblioteca?",
+    "deleteFromPlaylist": "Treure de la meva llista",
+    "deleteFromPlaylistDesc": "Estàs segur que vols treure {count} cançons seleccionades de la meva llista?",
+    "deleteSongFromPlaylist": "Estàs segur que vols treure \"{title}\" de la meva llista?"
+  },
+  "errors": {
+    "permissionRequired": "Es requereix permís d'accés a fitxers",
+    "playFailed": "Reproducció fallida",
+    "songNotFound": "Cançó no trobada",
+    "playFailedTitle": "No es pot reproduir \"{title}\"",
+    "playFailedRefresh": "Es requereix permís d'accés a fitxers després d'actualitzar la pàgina",
+    "playFailedAction": "Si us plau, reimporta les cançons o clica el botó d'autorització",
+    "authorize": "Autoritzar accés",
+    "close": "Tancar",
+    "browserNotSupported": "El teu navegador no suporta la selecció de carpetes. Si us plau, usa l'última versió de Chrome o Edge.",
+    "browserNotSupportedFiles": "El teu navegador no suporta la selecció de fitxers. Si us plau, usa l'última versió de Chrome o Edge."
+  },
+  "contentTitle": {
+    "allSongs": "Totes les cançons",
+    "artist": "Artista",
+    "album": "Àlbum",
+    "myPlaylist": "La meva llista de reproducció",
+    "artistFilter": "Artista: {name}",
+    "albumFilter": "Àlbum: {name}",
+    "searchResults": "Resultats de la cerca",
+    "songCount": "{count} cançons"
+  },
+  "notifications": {
+    "addedToPlaylist": "Afegides {count} cançons a la meva llista",
+    "removedFromPlaylist": "Tretes {count} cançons de la meva llista",
+    "deletedFromLibrary": "Eliminades {count} cançons de la biblioteca",
+    "deletedSongFromLibrary": "Eliminada \"{title}\" de la biblioteca",
+    "deletedSongFromPlaylist": "Treta \"{title}\" de la meva llista"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Import Muzik",
+    "search": "Cari muzik, artis atau album...",
+    "playAll": "Main Semua",
+    "cancel": "Batal",
+    "confirm": "Sahkan",
+    "unknownArtist": "Artis Tidak Diketahui",
+    "unknownAlbum": "Album Tidak Diketahui"
+  },
+  "sidebar": {
+    "allSongs": "Semua Lagu",
+    "artist": "Artis",
+    "album": "Album",
+    "myPlaylist": "Senarai Main Saya"
+  },
+  "songTable": {
+    "title": "Tajuk",
+    "artist": "Artis",
+    "album": "Album",
+    "duration": "Tempoh",
+    "status": "Status",
+    "actions": "Tindakan"
+  },
+  "player": {
+    "notPlaying": "Tidak Bermain",
+    "unknown": "-",
+    "previous": "Sebelumnya",
+    "play": "Main",
+    "pause": "Jeda",
+    "next": "Seterusnya",
+    "shuffle": "Rawak",
+    "repeat": "Ulang",
+    "repeatOne": "Ulang Satu",
+    "noLyrics": "Tiada Lirik",
+    "loadingLyrics": "Memuatkan..."
+  },
+  "empty": {
+    "noSongs": "Tiada Lagu",
+    "importHint": "Klik \"Import Muzik\" untuk menambah muzik"
+  },
+  "actions": {
+    "addToPlaylist": "Tambah ke Senarai Main Saya",
+    "deleteFromLibrary": "Padam dari Pustaka",
+    "deleteFromPlaylist": "Buang dari Senarai Main Saya"
+  },
+  "pagination": {
+    "page": "Halaman {current}",
+    "totalPages": "daripada {total} halaman"
+  },
+  "import": {
+    "title": "Import Muzik",
+    "fromFolder": "Import dari Folder",
+    "fromFolderDesc": "Pilih fail muzik dari folder tempatan",
+    "selectFiles": "Pilih Fail Muzik",
+    "selectFilesDesc": "Pilih satu atau lebih fail muzik",
+    "progress": "Kemajuan Import",
+    "importing": "Mengimport...",
+    "scanning": "Mengimbas folder...",
+    "cancel": "Batal Import",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Menyediakan...",
+    "scanningFiles": "Mengimbas...",
+    "scanningPath": "Mengimbas: {path}",
+    "parsing": "Menghurai: {file}",
+    "saving": "Menyimpan...",
+    "writingDb": "Menulis ke pangkalan data...",
+    "complete": "Selesai",
+    "finished": "Import selesai!",
+    "failed": "Import gagal: {error}",
+    "cancelled": "Import dibatalkan",
+    "saved": "Disimpan {new} lagu baru, dilangkau {dup} pendua"
+  },
+  "confirm": {
+    "title": "Sahkan",
+    "deleteFromLibrary": "Padam dari Pustaka",
+    "deleteFromLibraryDesc": "Adakah anda pasti mahu memadam {count} lagu yang dipilih dari pustaka?",
+    "deleteSongFromLibrary": "Adakah anda pasti mahu memadam \"{title}\" dari pustaka?",
+    "deleteFromPlaylist": "Buang dari Senarai Main Saya",
+    "deleteFromPlaylistDesc": "Adakah anda pasti mahu membuang {count} lagu yang dipilih dari senarai main saya?",
+    "deleteSongFromPlaylist": "Adakah anda pasti mahu membuang \"{title}\" dari senarai main saya?"
+  },
+  "errors": {
+    "permissionRequired": "Kebenaran akses fail diperlukan",
+    "playFailed": "Pemainan gagal",
+    "songNotFound": "Lagu tidak dijumpai",
+    "playFailedTitle": "Tidak dapat memainkan \"{title}\"",
+    "playFailedRefresh": "Kebenaran akses fail diperlukan selepas muat semula halaman",
+    "playFailedAction": "Sila import lagu semula atau klik butang kebenaran",
+    "authorize": "Benarkan Akses",
+    "close": "Tutup",
+    "browserNotSupported": "Pelayar anda tidak menyokong pemilihan folder. Sila gunakan versi Chrome atau Edge terkini.",
+    "browserNotSupportedFiles": "Pelayar anda tidak menyokong pemilihan fail. Sila gunakan versi Chrome atau Edge terkini."
+  },
+  "contentTitle": {
+    "allSongs": "Semua Lagu",
+    "artist": "Artis",
+    "album": "Album",
+    "myPlaylist": "Senarai Main Saya",
+    "artistFilter": "Artis: {name}",
+    "albumFilter": "Album: {name}",
+    "searchResults": "Hasil Carian",
+    "songCount": "{count} lagu"
+  },
+  "notifications": {
+    "addedToPlaylist": "Ditambah {count} lagu ke senarai main saya",
+    "removedFromPlaylist": "Dibuang {count} lagu dari senarai main saya",
+    "deletedFromLibrary": "Dipadam {count} lagu dari pustaka",
+    "deletedSongFromLibrary": "Dipadam \"{title}\" dari pustaka",
+    "deletedSongFromPlaylist": "Dibuang \"{title}\" dari senarai main saya"
+  }
+}

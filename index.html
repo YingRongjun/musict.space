@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicT.space</title>
+    <link rel="icon" type="image/jpeg" href="favicon.jpg">
+    <script>
+        (function() {
+            var savedVolume = localStorage.getItem('musicPlayerVolume');
+            var volume = savedVolume !== null ? parseFloat(savedVolume) : 0.7;
+            document.documentElement.style.setProperty('--initial-volume', (volume * 100) + '%');
+        })();
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/supported-languages.js"></script>
+</head>
+<body>
+    <header class="top-bar">
+        <div class="top-bar-left">
+            <div class="logo-container">
+                <img src="favicon.jpg" alt="MusicT Logo" class="logo-icon">
+                <div class="logo">MusicT<span class="logo-accent">.space</span></div>
+            </div>
+        </div>
+        <div class="top-bar-right">
+            <div class="lang-selector-wrapper">
+                <button id="langSelectorBtn" class="lang-selector-btn">
+                    <span class="lang-current">English</span>
+                    <svg width="12" height="12" viewBox="0 0 12 12">
+                        <path fill="currentColor" d="M6 8L2 4h8z"/>
+                    </svg>
+                </button>
+                <div id="langModal" class="lang-modal">
+                    <div class="lang-modal-content">
+                        <div class="lang-modal-body" id="langModalBody">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="app-container">
+        <aside class="sidebar-left">
+            <div class="sidebar-header">
+                <button class="import-btn" id="importBtn">
+                    <span class="text" data-i18n="common.import">Import Music</span>
+                </button>
+            </div>
+            <nav class="sidebar-nav">
+                <ul class="nav-list">
+                    <li class="nav-item active" data-view="all">
+                        <span class="nav-icon"><img src="imgs/music-icon.svg" alt="" width="18" height="18"></span>
+                        <span class="nav-text" data-i18n="sidebar.allSongs">All Songs</span>
+                    </li>
+                    <li class="nav-item" data-view="artist">
+                        <span class="nav-icon"><img src="imgs/artist-icon.svg" alt="" width="18" height="18"></span>
+                        <span class="nav-text" data-i18n="sidebar.artist">Artist</span>
+                        <span class="nav-arrow">▶</span>
+                    </li>
+                    <li class="nav-submenu collapsed" id="artistSubmenu">
+                    </li>
+                    <li class="nav-item" data-view="album">
+                        <span class="nav-icon"><img src="imgs/album-icon.svg" alt="" width="18" height="18"></span>
+                        <span class="nav-text" data-i18n="sidebar.album">Album</span>
+                        <span class="nav-arrow">▶</span>
+                    </li>
+                    <li class="nav-submenu collapsed" id="albumSubmenu">
+                    </li>
+                    <li class="nav-item" data-view="favorites">
+                        <span class="nav-icon"><img src="imgs/favorite-icon.svg" alt="" width="18" height="18"></span>
+                        <span class="nav-text" data-i18n="sidebar.myPlaylist">My Playlist</span>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <div class="content-header">
+                <h1 class="content-title" id="contentTitle" data-i18n="contentTitle.allSongs">All Songs</h1>
+                <div class="search-container">
+                    <div class="search-input-wrapper">
+                        <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                        <input type="text" class="search-input" id="searchInput" data-i18n-placeholder="common.search" placeholder="Search music, artist or album..." autocomplete="off">
+                        <button class="search-clear-btn" id="searchClearBtn" style="display: none;">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <button class="play-all-btn" id="playAllBtn">
+                    <span class="icon">▶</span>
+                    <span class="text" data-i18n="common.playAll">Play All</span>
+                </button>
+            </div>
+            <div class="song-list-container">
+                <table class="song-list">
+                    <thead>
+                        <tr>
+                            <th class="col-select">
+                                <input type="checkbox" id="selectAllCheckbox" class="select-all-checkbox">
+                            </th>
+                            <th class="col-number">#</th>
+                            <th class="col-title" data-i18n="songTable.title">Title</th>
+                            <th class="col-artist" data-i18n="songTable.artist">Artist</th>
+                            <th class="col-album" data-i18n="songTable.album">Album</th>
+                            <th class="col-duration" data-i18n="songTable.duration">Duration</th>
+                            <th class="col-status" data-i18n="songTable.status">Status</th>
+                            <th class="col-actions"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="songListBody">
+                    </tbody>
+                </table>
+                <div class="empty-state" id="emptyState">
+                    <div class="empty-icon"><img src="imgs/music-icon.svg" alt="" width="48" height="48"></div>
+                    <div class="empty-text" data-i18n="empty.noSongs">No Songs</div>
+                    <div class="empty-hint" data-i18n="empty.importHint">Click "Import Music" to add your music</div>
+                </div>
+            </div>
+            <div class="pagination-action-container">
+                <div class="action-buttons-container" id="actionButtonsContainer">
+                    <button class="action-btn" id="addToFavoritesBtn" style="display: none;">
+                        <span class="icon"><img src="imgs/heart-red.svg" alt="" width="16" height="16"></span>
+                        <span class="text" data-i18n="actions.addToPlaylist">Add to My Playlist</span>
+                    </button>
+                    <button class="action-btn" id="deleteFromLibraryBtn" style="display: none;">
+                        <span class="icon"><img src="imgs/delete-icon.svg" alt="" width="16" height="16"></span>
+                        <span class="text" data-i18n="actions.deleteFromLibrary">Delete from Library</span>
+                    </button>
+                    <button class="action-btn" id="deleteFromFavoritesBtn" style="display: none;">
+                        <span class="icon"><img src="imgs/delete-icon.svg" alt="" width="16" height="16"></span>
+                        <span class="text" data-i18n="actions.deleteFromPlaylist">Remove from My Playlist</span>
+                    </button>
+                </div>
+                <div class="pagination-container" id="paginationContainer">
+                    <button class="pagination-btn" id="prevPageBtn" disabled>
+                        <span class="icon">◀</span>
+                    </button>
+                    <div class="pagination-info">
+                        <span class="pagination-text" id="paginationText">Page 1</span>
+                        <span class="pagination-total" id="paginationTotal">of 1 pages</span>
+                    </div>
+                    <button class="pagination-btn" id="nextPageBtn" disabled>
+                        <span class="icon">▶</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <aside class="sidebar-right">
+            <div class="player-panel">
+                <div class="album-cover">
+                    <img src="imgs/music-icon.svg" alt="Album Cover" id="albumCover">
+                </div>
+                <div class="song-info">
+                    <div class="song-title" id="currentTitle" data-i18n="player.notPlaying">Not Playing</div>
+                    <div class="song-artist" id="currentArtist" data-i18n="player.unknown">-</div>
+                    <div class="song-album" id="currentAlbum" data-i18n="player.unknown">-</div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                        <div class="progress-thumb" id="progressThumb"></div>
+                    </div>
+                    <div class="time-display">
+                        <span class="current-time" id="currentTime">0:00</span>
+                        <span class="time-separator">/</span>
+                        <span class="total-time" id="totalTime">0:00</span>
+                    </div>
+                </div>
+                <div class="player-controls">
+                    <button class="control-btn play-mode-btn" id="playModeBtn" data-i18n-title="player.repeat" title="Repeat">
+                        <svg class="icon-svg" viewBox="0 0 1024 1024" version="1.1">
+                            <path d="M301.392 805.072v53.856a20 20 0 0 1-33.056 15.104l-117.76-101.84a20 20 0 0 1 0-30.24l117.76-101.84a20 20 0 0 1 33.056 15.12v53.84h332.288c89.344 0 161.856-72.8 161.856-162.72v-9.6a48 48 0 1 1 96 0v9.6c0 142.832-115.408 258.72-257.856 258.72H301.392z m437.216-570.144v-53.856a20 20 0 0 1 33.056-15.104l117.76 101.84a20 20 0 0 1 0 30.24l-117.76 101.84a20 20 0 0 1-33.056-15.12v-53.84H406.32c-89.344 0-161.856 72.8-161.856 162.72v9.6a48 48 0 0 1-96 0v-9.6c0-142.832 115.408-258.72 257.856-258.72h332.288z" fill="currentColor"></path>
+                        </svg>
+                    </button>
+                    <button class="control-btn prev-btn" id="prevBtn" data-i18n-title="player.previous" title="Previous">
+                        <svg class="icon-svg" viewBox="0 0 1024 1024" version="1.1">
+                            <path d="M364.302083 465.602819L687.954365 218.588294c38.416414-29.327534 93.791393-1.929039 93.791392 46.396277v494.029051c0 48.325316-55.374979 75.725617-93.791392 46.398084L364.302083 558.397181c-30.600916-23.357989-30.600916-69.436372 0-92.794362zM238.945254 780.798397V451.684117v-164.562559c0-19.628152-5.904521-60.475733 17.057907-75.841215 25.523642-17.068744 59.747828 1.210165 59.747828 31.919454v493.676839c0 19.628152 5.915358 60.473927-17.047069 75.841215-25.53448 17.068744-59.758666-1.211971-59.758666-31.919454z" fill="currentColor"></path>
+                        </svg>
+                    </button>
+                    <button class="control-btn play-btn" id="playBtn" data-i18n-title="player.play" title="Play">
+                        <svg class="icon-svg" viewBox="0 0 1024 1024" version="1.1">
+                            <path d="M780.8 475.733333L285.866667 168.533333c-27.733333-17.066667-64 4.266667-64 36.266667v614.4c0 32 36.266667 53.333333 64 36.266667l492.8-307.2c29.866667-14.933333 29.866667-57.6 2.133333-72.533334z" fill="currentColor"></path>
+                        </svg>
+                    </button>
+                    <button class="control-btn next-btn" id="nextBtn" data-i18n-title="player.next" title="Next">
+                        <svg class="icon-svg" viewBox="0 0 1024 1024" version="1.1">
+                            <path d="M655.706179 465.602819L332.053897 218.588294c-38.414608-29.327534-93.791393-1.929039-93.791392 46.396277v494.029051c0 48.325316 55.376785 75.725617 93.791392 46.398084l323.652282-247.014525c30.602722-23.357989 30.602722-69.436372 0-92.794362zM781.064814 780.798397V451.684117v-164.562559c0-19.628152 5.904521-60.475733-17.057907-75.841215-25.523642-17.068744-59.747828 1.210165-59.747828 31.919454v493.676839c0 19.628152-5.915358 60.473927 17.047069 75.841215 25.532673 17.068744 59.758666-1.211971 59.758666-31.919454z" fill="currentColor"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="volume-control">
+                    <button class="volume-btn" id="volumeBtn">
+                        <svg class="icon-svg" viewBox="0 0 1024 1024" version="1.1">
+                            <path d="M260.256 356.576l204.288-163.968a32 32 0 0 1 52.032 24.96v610.432a32 32 0 0 1-51.968 24.992l-209.92-167.552H96a32 32 0 0 1-32-32v-264.864a32 32 0 0 1 32-32h164.256z" fill="currentColor"></path>
+                            <path class="wave-1" d="M670.784 720.128a32 32 0 0 1-44.832-45.664 214.08 214.08 0 0 0 64.32-153.312 213.92 213.92 0 0 0-55.776-144.448 32 32 0 1 1 47.36-43.04 277.92 277.92 0 0 1 72.416 187.488 278.08 278.08 0 0 1-83.488 198.976z" fill="currentColor"></path>
+                            <path class="wave-2" d="M822.912 858.88a32 32 0 1 1-45.888-44.608A419.008 419.008 0 0 0 896 521.152c0-108.704-41.376-210.848-114.432-288.384a32 32 0 0 1 46.592-43.872c84.16 89.28 131.84 207.04 131.84 332.256 0 127.84-49.76 247.904-137.088 337.728z" fill="currentColor"></path>
+                        </svg>
+                    </button>
+                    <div class="volume-bar">
+                        <div class="volume-fill" id="volumeFill"></div>
+                        <div class="volume-thumb" id="volumeThumb"></div>
+                    </div>
+                </div>
+                <div class="lyrics-container" id="lyricsContainer">
+                    <div class="lyrics-content" id="lyricsContent">
+                        <div class="lyrics-placeholder" data-i18n="player.noLyrics">No Lyrics</div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <div class="custom-tooltip" id="customTooltip"></div>
+
+    <div class="modal-overlay" id="importModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 data-i18n="import.title">Import Music</h2>
+                <button class="modal-close" id="modalClose">×</button>
+            </div>
+            <div class="modal-body">
+                <button class="import-option" id="importFolder">
+                    <span class="option-title" data-i18n="import.fromFolder">Import from Folder</span>
+                    <span class="option-desc" data-i18n="import.fromFolderDesc">Select music files from a local folder</span>
+                </button>
+                <button class="import-option" id="importFile">
+                    <span class="option-title" data-i18n="import.selectFiles">Select Music Files</span>
+                    <span class="option-desc" data-i18n="import.selectFilesDesc">Select one or more music files</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="importProgressModal">
+        <div class="modal-content import-progress-content">
+            <div class="modal-header">
+                <h2 data-i18n="import.progress">Import Progress</h2>
+                <button class="modal-close" id="importProgressClose">×</button>
+            </div>
+            <div class="modal-body">
+                <div class="progress-info">
+                    <div class="progress-stats">
+                        <span class="progress-text" data-i18n="import.importing">Importing...</span>
+                        <span class="progress-count" id="importProgressCount">0 / 0</span>
+                    </div>
+                    <div class="progress-percentage" id="importProgressPercentage">0%</div>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar-fill" id="importProgressBar"></div>
+                </div>
+                <div class="progress-status" id="importProgressStatus" data-i18n="import.scanning">Scanning folder...</div>
+                <button class="cancel-btn" id="cancelImportBtn" data-i18n="import.cancel">Cancel Import</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="confirmModal">
+        <div class="modal-content confirm-content">
+            <div class="modal-header">
+                <h2 id="confirmTitle" data-i18n="confirm.title">Confirm</h2>
+                <button class="modal-close" id="confirmClose">×</button>
+            </div>
+            <div class="modal-body">
+                <div class="confirm-message" id="confirmMessage">Are you sure?</div>
+                <div class="confirm-actions">
+                    <button class="confirm-btn cancel" id="confirmCancel" data-i18n="common.cancel">Cancel</button>
+                    <button class="confirm-btn confirm" id="confirmOk" data-i18n="common.confirm">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/i18n.js"></script>
+    <script>
+        i18n.init().then(() => {
+            console.log('[i18n] Ready, locale:', i18n.getLocale());
+            i18n.updateAllElements();
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crc-32/1.2.2/crc32.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.5/jsmediatags.min.js"></script>
+    <script src="https://unpkg.com/opencc-js@1.0.5/dist/umd/full.js"></script>
+    <script src="js/musicbrainz.js"></script>
+    <script src="js/file-system.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

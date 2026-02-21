@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Import Music",
+    "search": "Search music, artist or album...",
+    "playAll": "Play All",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "unknownArtist": "Unknown Artist",
+    "unknownAlbum": "Unknown Album"
+  },
+  "sidebar": {
+    "allSongs": "All Songs",
+    "artist": "Artist",
+    "album": "Album",
+    "myPlaylist": "My Playlist"
+  },
+  "songTable": {
+    "title": "Title",
+    "artist": "Artist",
+    "album": "Album",
+    "duration": "Duration",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "player": {
+    "notPlaying": "Not Playing",
+    "unknown": "-",
+    "previous": "Previous",
+    "play": "Play",
+    "pause": "Pause",
+    "next": "Next",
+    "shuffle": "Shuffle",
+    "repeat": "Repeat",
+    "repeatOne": "Repeat One",
+    "noLyrics": "No Lyrics",
+    "loadingLyrics": "Loading..."
+  },
+  "empty": {
+    "noSongs": "No Songs",
+    "importHint": "Click \"Import Music\" to add your music"
+  },
+  "actions": {
+    "addToPlaylist": "Add to My Playlist",
+    "deleteFromLibrary": "Delete from Library",
+    "deleteFromPlaylist": "Remove from My Playlist"
+  },
+  "pagination": {
+    "page": "Page {current}",
+    "totalPages": "of {total} pages"
+  },
+  "import": {
+    "title": "Import Music",
+    "fromFolder": "Import from Folder",
+    "fromFolderDesc": "Select music files from a local folder",
+    "selectFiles": "Select Music Files",
+    "selectFilesDesc": "Select one or more music files",
+    "progress": "Import Progress",
+    "importing": "Importing...",
+    "scanning": "Scanning folder...",
+    "cancel": "Cancel Import",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Preparing...",
+    "scanningFiles": "Scanning...",
+    "scanningPath": "Scanning: {path}",
+    "parsing": "Parsing: {file}",
+    "saving": "Saving...",
+    "writingDb": "Writing to database...",
+    "complete": "Complete",
+    "finished": "Import finished!",
+    "failed": "Import failed: {error}",
+    "cancelled": "Import cancelled",
+    "saved": "Saved {new} new songs, skipped {dup} duplicates"
+  },
+  "confirm": {
+    "title": "Confirm",
+    "deleteFromLibrary": "Delete from Library",
+    "deleteFromLibraryDesc": "Are you sure you want to delete {count} selected songs from the library?",
+    "deleteSongFromLibrary": "Are you sure you want to delete \"{title}\" from the library?",
+    "deleteFromPlaylist": "Remove from My Playlist",
+    "deleteFromPlaylistDesc": "Are you sure you want to remove {count} selected songs from My Playlist?",
+    "deleteSongFromPlaylist": "Are you sure you want to remove \"{title}\" from My Playlist?"
+  },
+  "errors": {
+    "permissionRequired": "File access permission required",
+    "playFailed": "Playback failed",
+    "songNotFound": "Song record not found",
+    "playFailedTitle": "Cannot play \"{title}\"",
+    "playFailedRefresh": "File access permission is required after page refresh",
+    "playFailedAction": "Please re-import songs or click authorize button",
+    "authorize": "Authorize Access",
+    "close": "Close",
+    "browserNotSupported": "Your browser does not support folder selection. Please use the latest version of Chrome or Edge.",
+    "browserNotSupportedFiles": "Your browser does not support file selection. Please use the latest version of Chrome or Edge."
+  },
+  "contentTitle": {
+    "allSongs": "All Songs",
+    "artist": "Artist",
+    "album": "Album",
+    "myPlaylist": "My Playlist",
+    "artistFilter": "Artist: {name}",
+    "albumFilter": "Album: {name}",
+    "searchResults": "Search Results",
+    "songCount": "{count} songs"
+  },
+  "notifications": {
+    "addedToPlaylist": "Added {count} songs to My Playlist",
+    "removedFromPlaylist": "Removed {count} songs from My Playlist",
+    "deletedFromLibrary": "Deleted {count} songs from library",
+    "deletedSongFromLibrary": "Deleted \"{title}\" from library",
+    "deletedSongFromPlaylist": "Removed \"{title}\" from My Playlist"
+  }
+}

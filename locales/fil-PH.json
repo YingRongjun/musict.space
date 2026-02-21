@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Mag-import ng Musika",
+    "search": "Maghanap ng musika, artista, o album...",
+    "playAll": "I-play Lahat",
+    "cancel": "Kanselahin",
+    "confirm": "Kumpirmahin",
+    "unknownArtist": "Hindi Kilalang Artista",
+    "unknownAlbum": "Hindi Kilalang Album"
+  },
+  "sidebar": {
+    "allSongs": "Lahat ng Kanta",
+    "artist": "Artista",
+    "album": "Album",
+    "myPlaylist": "Aking Playlist"
+  },
+  "songTable": {
+    "title": "Pamagat",
+    "artist": "Artista",
+    "album": "Album",
+    "duration": "Tagal",
+    "status": "Status",
+    "actions": "Aksyon"
+  },
+  "player": {
+    "notPlaying": "Hindi Nagpe-play",
+    "unknown": "-",
+    "previous": "Nakaraan",
+    "play": "I-play",
+    "pause": "I-pause",
+    "next": "Susunod",
+    "shuffle": "I-shuffle",
+    "repeat": "Ulitin",
+    "repeatOne": "Ulitin Isa",
+    "noLyrics": "Walang Liriko",
+    "loadingLyrics": "Naglo-load..."
+  },
+  "empty": {
+    "noSongs": "Walang Kanta",
+    "importHint": "I-click ang \"Mag-import ng Musika\" upang magdagdag ng musika"
+  },
+  "actions": {
+    "addToPlaylist": "Idagdag sa Aking Playlist",
+    "deleteFromLibrary": "Tanggalin sa Library",
+    "deleteFromPlaylist": "Alisin sa Aking Playlist"
+  },
+  "pagination": {
+    "page": "Pahina {current}",
+    "totalPages": "ng {total} na pahina"
+  },
+  "import": {
+    "title": "Mag-import ng Musika",
+    "fromFolder": "Mag-import mula sa Folder",
+    "fromFolderDesc": "Pumili ng mga file ng musika mula sa lokal na folder",
+    "selectFiles": "Pumili ng mga File ng Musika",
+    "selectFilesDesc": "Pumili ng isa o higit pang mga file ng musika",
+    "progress": "Progreso ng Pag-import",
+    "importing": "Nag-i-import...",
+    "scanning": "Nag-i-scan ng folder...",
+    "cancel": "Kanselahin ang Pag-import",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Naghahanda...",
+    "scanningFiles": "Nag-i-scan...",
+    "scanningPath": "Nag-i-scan: {path}",
+    "parsing": "Piniproseso: {file}",
+    "saving": "Nagsasave...",
+    "writingDb": "Nagsusulat sa database...",
+    "complete": "Kumpleto",
+    "finished": "Tapos na ang pag-import!",
+    "failed": "Hindi nagtagumpay ang pag-import: {error}",
+    "cancelled": "Nakansela ang pag-import",
+    "saved": "Nakapagsave ng {new} bagong kanta, nilaktawan ang {dup} na duplicate"
+  },
+  "confirm": {
+    "title": "Kumpirmahin",
+    "deleteFromLibrary": "Tanggalin sa Library",
+    "deleteFromLibraryDesc": "Sigurado ka bang gusto mong tanggalin ang {count} na napiling kanta mula sa library?",
+    "deleteSongFromLibrary": "Sigurado ka bang gusto mong tanggalin ang \"{title}\" mula sa library?",
+    "deleteFromPlaylist": "Alisin sa Aking Playlist",
+    "deleteFromPlaylistDesc": "Sigurado ka bang gusto mong alisin ang {count} na napiling kanta mula sa aking playlist?",
+    "deleteSongFromPlaylist": "Sigurado ka bang gusto mong alisin ang \"{title}\" mula sa aking playlist?"
+  },
+  "errors": {
+    "permissionRequired": "Kailangan ng pahintulot sa pag-access ng file",
+    "playFailed": "Hindi nagtagumpay ang pag-play",
+    "songNotFound": "Hindi nahanap ang kanta",
+    "playFailedTitle": "Hindi ma-play ang \"{title}\"",
+    "playFailedRefresh": "Kailangan ng pahintulot sa pag-access ng file pagkatapos i-refresh ang pahina",
+    "playFailedAction": "Paki-import muli ang mga kanta o i-click ang button na pahintulutan",
+    "authorize": "Pahintulutan ang Access",
+    "close": "Isara",
+    "browserNotSupported": "Hindi suportado ng iyong browser ang pagpili ng folder. Pakigamit ang pinakabagong bersyon ng Chrome o Edge.",
+    "browserNotSupportedFiles": "Hindi suportado ng iyong browser ang pagpili ng file. Pakigamit ang pinakabagong bersyon ng Chrome o Edge."
+  },
+  "contentTitle": {
+    "allSongs": "Lahat ng Kanta",
+    "artist": "Artista",
+    "album": "Album",
+    "myPlaylist": "Aking Playlist",
+    "artistFilter": "Artista: {name}",
+    "albumFilter": "Album: {name}",
+    "searchResults": "Mga Resulta ng Paghahanap",
+    "songCount": "{count} na kanta"
+  },
+  "notifications": {
+    "addedToPlaylist": "Nagdagdag ng {count} na kanta sa aking playlist",
+    "removedFromPlaylist": "Nag-alis ng {count} na kanta mula sa aking playlist",
+    "deletedFromLibrary": "Nagtanggal ng {count} na kanta mula sa library",
+    "deletedSongFromLibrary": "Nagtanggal ng \"{title}\" mula sa library",
+    "deletedSongFromPlaylist": "Nag-alis ng \"{title}\" mula sa aking playlist"
+  }
+}

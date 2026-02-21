@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "นำเข้าเพลง",
+    "search": "ค้นหาเพลง ศิลปิน หรืออัลบั้ม...",
+    "playAll": "เล่นทั้งหมด",
+    "cancel": "ยกเลิก",
+    "confirm": "ยืนยัน",
+    "unknownArtist": "ศิลปินที่ไม่รู้จัก",
+    "unknownAlbum": "อัลบั้มที่ไม่รู้จัก"
+  },
+  "sidebar": {
+    "allSongs": "เพลงทั้งหมด",
+    "artist": "ศิลปิน",
+    "album": "อัลบั้ม",
+    "myPlaylist": "เพลย์ลิสต์ของฉัน"
+  },
+  "songTable": {
+    "title": "ชื่อเพลง",
+    "artist": "ศิลปิน",
+    "album": "อัลบั้ม",
+    "duration": "ความยาว",
+    "status": "สถานะ",
+    "actions": "การดำเนินการ"
+  },
+  "player": {
+    "notPlaying": "ไม่ได้เล่น",
+    "unknown": "-",
+    "previous": "ก่อนหน้า",
+    "play": "เล่น",
+    "pause": "หยุดชั่วคราว",
+    "next": "ถัดไป",
+    "shuffle": "สุ่ม",
+    "repeat": "ทำซ้ำ",
+    "repeatOne": "ทำซ้ำเพลงเดียว",
+    "noLyrics": "ไม่มีเนื้อเพลง",
+    "loadingLyrics": "กำลังโหลด..."
+  },
+  "empty": {
+    "noSongs": "ไม่มีเพลง",
+    "importHint": "คลิก \"นำเข้าเพลง\" เพื่อเพิ่มเพลง"
+  },
+  "actions": {
+    "addToPlaylist": "เพิ่มในเพลย์ลิสต์ของฉัน",
+    "deleteFromLibrary": "ลบจากไลบรารี",
+    "deleteFromPlaylist": "ลบออกจากเพลย์ลิสต์ของฉัน"
+  },
+  "pagination": {
+    "page": "หน้า {current}",
+    "totalPages": "จาก {total} หน้า"
+  },
+  "import": {
+    "title": "นำเข้าเพลง",
+    "fromFolder": "นำเข้าจากโฟลเดอร์",
+    "fromFolderDesc": "เลือกไฟล์เพลงจากโฟลเดอร์ในเครื่อง",
+    "selectFiles": "เลือกไฟล์เพลง",
+    "selectFilesDesc": "เลือกไฟล์เพลงหนึ่งไฟล์หรือมากกว่า",
+    "progress": "ความคืบหน้าการนำเข้า",
+    "importing": "กำลังนำเข้า...",
+    "scanning": "กำลังสแกนโฟลเดอร์...",
+    "cancel": "ยกเลิกการนำเข้า",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "กำลังเตรียมการ...",
+    "scanningFiles": "กำลังสแกน...",
+    "scanningPath": "กำลังสแกน: {path}",
+    "parsing": "กำลังแยกวิเคราะห์: {file}",
+    "saving": "กำลังบันทึก...",
+    "writingDb": "กำลังเขียนลงฐานข้อมูล...",
+    "complete": "เสร็จสิ้น",
+    "finished": "นำเข้าเสร็จสิ้น!",
+    "failed": "นำเข้าล้มเหลว: {error}",
+    "cancelled": "การนำเข้าถูกยกเลิก",
+    "saved": "บันทึก {new} เพลงใหม่ ข้าม {dup} รายการที่ซ้ำ"
+  },
+  "confirm": {
+    "title": "ยืนยัน",
+    "deleteFromLibrary": "ลบจากไลบรารี",
+    "deleteFromLibraryDesc": "คุณแน่ใจหรือไม่ว่าต้องการลบ {count} เพลงที่เลือกจากไลบรารี?",
+    "deleteSongFromLibrary": "คุณแน่ใจหรือไม่ว่าต้องการลบ \"{title}\" จากไลบรารี?",
+    "deleteFromPlaylist": "ลบออกจากเพลย์ลิสต์ของฉัน",
+    "deleteFromPlaylistDesc": "คุณแน่ใจหรือไม่ว่าต้องการลบ {count} เพลงที่เลือกออกจากเพลย์ลิสต์ของฉัน?",
+    "deleteSongFromPlaylist": "คุณแน่ใจหรือไม่ว่าต้องการลบ \"{title}\" ออกจากเพลย์ลิสต์ของฉัน?"
+  },
+  "errors": {
+    "permissionRequired": "ต้องการสิทธิ์เข้าถึงไฟล์",
+    "playFailed": "การเล่นล้มเหลว",
+    "songNotFound": "ไม่พบเพลง",
+    "playFailedTitle": "ไม่สามารถเล่น \"{title}\"",
+    "playFailedRefresh": "ต้องการสิทธิ์เข้าถึงไฟล์หลังจากรีเฟรชหน้า",
+    "playFailedAction": "โปรดนำเข้าเพลงใหม่หรือคลิกปุ่มอนุญาต",
+    "authorize": "อนุญาตการเข้าถึง",
+    "close": "ปิด",
+    "browserNotSupported": "เบราว์เซอร์ของคุณไม่รองรับการเลือกโฟลเดอร์ โปรดใช้ Chrome หรือ Edge เวอร์ชันล่าสุด",
+    "browserNotSupportedFiles": "เบราว์เซอร์ของคุณไม่รองรับการเลือกไฟล์ โปรดใช้ Chrome หรือ Edge เวอร์ชันล่าสุด"
+  },
+  "contentTitle": {
+    "allSongs": "เพลงทั้งหมด",
+    "artist": "ศิลปิน",
+    "album": "อัลบั้ม",
+    "myPlaylist": "เพลย์ลิสต์ของฉัน",
+    "artistFilter": "ศิลปิน: {name}",
+    "albumFilter": "อัลบั้ม: {name}",
+    "searchResults": "ผลการค้นหา",
+    "songCount": "{count} เพลง"
+  },
+  "notifications": {
+    "addedToPlaylist": "เพิ่ม {count} เพลงในเพลย์ลิสต์ของฉัน",
+    "removedFromPlaylist": "ลบ {count} เพลงออกจากเพลย์ลิสต์ของฉัน",
+    "deletedFromLibrary": "ลบ {count} เพลงจากไลบรารี",
+    "deletedSongFromLibrary": "ลบ \"{title}\" จากไลบรารี",
+    "deletedSongFromPlaylist": "ลบ \"{title}\" ออกจากเพลย์ลิสต์ของฉัน"
+  }
+}

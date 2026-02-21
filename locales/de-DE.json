@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Musik importieren",
+    "search": "Musik, Künstler oder Album suchen...",
+    "playAll": "Alle abspielen",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "unknownArtist": "Unbekannter Künstler",
+    "unknownAlbum": "Unbekanntes Album"
+  },
+  "sidebar": {
+    "allSongs": "Alle Songs",
+    "artist": "Künstler",
+    "album": "Album",
+    "myPlaylist": "Meine Playlist"
+  },
+  "songTable": {
+    "title": "Titel",
+    "artist": "Künstler",
+    "album": "Album",
+    "duration": "Dauer",
+    "status": "Status",
+    "actions": "Aktionen"
+  },
+  "player": {
+    "notPlaying": "Keine Wiedergabe",
+    "unknown": "-",
+    "previous": "Vorheriger",
+    "play": "Abspielen",
+    "pause": "Pause",
+    "next": "Nächster",
+    "shuffle": "Zufällig",
+    "repeat": "Wiederholen",
+    "repeatOne": "Einzeln wiederholen",
+    "noLyrics": "Kein Text",
+    "loadingLyrics": "Laden..."
+  },
+  "empty": {
+    "noSongs": "Keine Songs",
+    "importHint": "Klicken Sie auf \"Musik importieren\", um Musik hinzuzufügen"
+  },
+  "actions": {
+    "addToPlaylist": "Zu meiner Playlist hinzufügen",
+    "deleteFromLibrary": "Aus Bibliothek löschen",
+    "deleteFromPlaylist": "Aus meiner Playlist entfernen"
+  },
+  "pagination": {
+    "page": "Seite {current}",
+    "totalPages": "von {total}"
+  },
+  "import": {
+    "title": "Musik importieren",
+    "fromFolder": "Aus Ordner importieren",
+    "fromFolderDesc": "Musikdateien aus lokalem Ordner auswählen",
+    "selectFiles": "Dateien auswählen",
+    "selectFilesDesc": "Eine oder mehrere Musikdateien auswählen",
+    "progress": "Importfortschritt",
+    "importing": "Importiere...",
+    "scanning": "Ordner wird gescannt...",
+    "cancel": "Import abbrechen",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Vorbereitung...",
+    "scanningFiles": "Scannen...",
+    "scanningPath": "Scannen: {path}",
+    "parsing": "Verarbeiten: {file}",
+    "saving": "Speichern...",
+    "writingDb": "In Datenbank schreiben...",
+    "complete": "Fertig",
+    "finished": "Import abgeschlossen!",
+    "failed": "Import fehlgeschlagen: {error}",
+    "cancelled": "Import abgebrochen",
+    "saved": "{new} neue Songs hinzugefügt, {dup} Duplikate übersprungen"
+  },
+  "confirm": {
+    "title": "Bestätigung",
+    "deleteFromLibrary": "Aus Bibliothek löschen",
+    "deleteFromLibraryDesc": "Sind Sie sicher, dass Sie {count} ausgewählte Songs aus der Bibliothek löschen möchten?",
+    "deleteSongFromLibrary": "Sind Sie sicher, dass Sie \"{title}\" aus der Bibliothek löschen möchten?",
+    "deleteFromPlaylist": "Aus meiner Playlist entfernen",
+    "deleteFromPlaylistDesc": "Sind Sie sicher, dass Sie {count} ausgewählte Songs aus meiner Playlist entfernen möchten?",
+    "deleteSongFromPlaylist": "Sind Sie sicher, dass Sie \"{title}\" aus meiner Playlist entfernen möchten?"
+  },
+  "errors": {
+    "permissionRequired": "Dateizugriffsberechtigung erforderlich",
+    "playFailed": "Wiedergabe fehlgeschlagen",
+    "songNotFound": "Song nicht gefunden",
+    "playFailedTitle": "\"{title}\" kann nicht abgespielt werden",
+    "playFailedRefresh": "Dateizugriffsberechtigung nach Seitenaktualisierung erforderlich",
+    "playFailedAction": "Bitte importieren Sie Songs erneut oder klicken Sie auf die Autorisierungsschaltfläche",
+    "authorize": "Zugriff autorisieren",
+    "close": "Schließen",
+    "browserNotSupported": "Ihr Browser unterstützt keine Ordnerauswahl. Bitte verwenden Sie die neueste Version von Chrome oder Edge.",
+    "browserNotSupportedFiles": "Ihr Browser unterstützt keine Dateiauswahl. Bitte verwenden Sie die neueste Version von Chrome oder Edge."
+  },
+  "contentTitle": {
+    "allSongs": "Alle Songs",
+    "artist": "Künstler",
+    "album": "Album",
+    "myPlaylist": "Meine Playlist",
+    "artistFilter": "Künstler: {name}",
+    "albumFilter": "Album: {name}",
+    "searchResults": "Suchergebnisse",
+    "songCount": "{count} Songs"
+  },
+  "notifications": {
+    "addedToPlaylist": "{count} Songs zu meiner Playlist hinzugefügt",
+    "removedFromPlaylist": "{count} Songs aus meiner Playlist entfernt",
+    "deletedFromLibrary": "{count} Songs aus der Bibliothek gelöscht",
+    "deletedSongFromLibrary": "\"{title}\" aus der Bibliothek gelöscht",
+    "deletedSongFromPlaylist": "\"{title}\" aus meiner Playlist entfernt"
+  }
+}

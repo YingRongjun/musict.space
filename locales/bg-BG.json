@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Импортиране на музика",
+    "search": "Търсене на музика, изпълнител или албум...",
+    "playAll": "Възпроизвеждане на всички",
+    "cancel": "Отказ",
+    "confirm": "Потвърждение",
+    "unknownArtist": "Неизвестен изпълнител",
+    "unknownAlbum": "Неизвестен албум"
+  },
+  "sidebar": {
+    "allSongs": "Всички песни",
+    "artist": "Изпълнител",
+    "album": "Албум",
+    "myPlaylist": "Моят плейлист"
+  },
+  "songTable": {
+    "title": "Заглавие",
+    "artist": "Изпълнител",
+    "album": "Албум",
+    "duration": "Времетраене",
+    "status": "Статус",
+    "actions": "Действия"
+  },
+  "player": {
+    "notPlaying": "Не се възпроизвежда",
+    "unknown": "-",
+    "previous": "Предишна",
+    "play": "Възпроизвеждане",
+    "pause": "Пауза",
+    "next": "Следваща",
+    "shuffle": "Разбъркване",
+    "repeat": "Повторение",
+    "repeatOne": "Повторение на една",
+    "noLyrics": "Няма текст",
+    "loadingLyrics": "Зареждане..."
+  },
+  "empty": {
+    "noSongs": "Няма песни",
+    "importHint": "Кликнете \"Импортиране на музика\" за да добавите музика"
+  },
+  "actions": {
+    "addToPlaylist": "Добави към моя плейлист",
+    "deleteFromLibrary": "Изтрий от библиотеката",
+    "deleteFromPlaylist": "Премахни от моя плейлист"
+  },
+  "pagination": {
+    "page": "Страница {current}",
+    "totalPages": "от {total} страници"
+  },
+  "import": {
+    "title": "Импортиране на музика",
+    "fromFolder": "Импортиране от папка",
+    "fromFolderDesc": "Изберете музикални файлове от локална папка",
+    "selectFiles": "Изберете музикални файлове",
+    "selectFilesDesc": "Изберете един или повече музикални файла",
+    "progress": "Напредък на импортирането",
+    "importing": "Импортиране...",
+    "scanning": "Сканиране на папка...",
+    "cancel": "Отмени импортирането",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Подготовка...",
+    "scanningFiles": "Сканиране...",
+    "scanningPath": "Сканиране: {path}",
+    "parsing": "Анализиране: {file}",
+    "saving": "Запазване...",
+    "writingDb": "Записване в базата данни...",
+    "complete": "Завършено",
+    "finished": "Импортирането завърши!",
+    "failed": "Импортирането не успя: {error}",
+    "cancelled": "Импортирането е отменено",
+    "saved": "Запазени {new} нови песни, пропуснати {dup} дубликати"
+  },
+  "confirm": {
+    "title": "Потвърждение",
+    "deleteFromLibrary": "Изтрий от библиотеката",
+    "deleteFromLibraryDesc": "Сигурни ли сте, че искате да изтриете {count} избрани песни от библиотеката?",
+    "deleteSongFromLibrary": "Сигурни ли сте, че искате да изтриете \"{title}\" от библиотеката?",
+    "deleteFromPlaylist": "Премахни от моя плейлист",
+    "deleteFromPlaylistDesc": "Сигурни ли сте, че искате да премахнете {count} избрани песни от моя плейлист?",
+    "deleteSongFromPlaylist": "Сигурни ли сте, че искате да премахнете \"{title}\" от моя плейлист?"
+  },
+  "errors": {
+    "permissionRequired": "Изисква се достъп до файлове",
+    "playFailed": "Възпроизвеждането не успя",
+    "songNotFound": "Песента не е намерена",
+    "playFailedTitle": "Не може да се възпроизведе \"{title}\"",
+    "playFailedRefresh": "Изисква се достъп до файлове след опресняване на страницата",
+    "playFailedAction": "Моля, импортирайте песните отново или кликнете бутона за оторизация",
+    "authorize": "Оторизирай достъп",
+    "close": "Затвори",
+    "browserNotSupported": "Вашият браузър не поддържа избор на папка. Моля, използвайте най-новата версия на Chrome или Edge.",
+    "browserNotSupportedFiles": "Вашият браузър не поддържа избор на файлове. Моля, използвайте най-новата версия на Chrome или Edge."
+  },
+  "contentTitle": {
+    "allSongs": "Всички песни",
+    "artist": "Изпълнител",
+    "album": "Албум",
+    "myPlaylist": "Моят плейлист",
+    "artistFilter": "Изпълнител: {name}",
+    "albumFilter": "Албум: {name}",
+    "searchResults": "Резултати от търсенето",
+    "songCount": "{count} песни"
+  },
+  "notifications": {
+    "addedToPlaylist": "Добавени {count} песни към моя плейлист",
+    "removedFromPlaylist": "Премахнати {count} песни от моя плейлист",
+    "deletedFromLibrary": "Изтрити {count} песни от библиотеката",
+    "deletedSongFromLibrary": "Изтрита \"{title}\" от библиотеката",
+    "deletedSongFromPlaylist": "Премахната \"{title}\" от моя плейлист"
+  }
+}

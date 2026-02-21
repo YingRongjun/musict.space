@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Импорт музыки",
+    "search": "Поиск музыки, исполнителя или альбома...",
+    "playAll": "Воспроизвести всё",
+    "cancel": "Отмена",
+    "confirm": "Подтвердить",
+    "unknownArtist": "Неизвестный исполнитель",
+    "unknownAlbum": "Неизвестный альбом"
+  },
+  "sidebar": {
+    "allSongs": "Все песни",
+    "artist": "Исполнитель",
+    "album": "Альбом",
+    "myPlaylist": "Мой плейлист"
+  },
+  "songTable": {
+    "title": "Название",
+    "artist": "Исполнитель",
+    "album": "Альбом",
+    "duration": "Длительность",
+    "status": "Статус",
+    "actions": "Действия"
+  },
+  "player": {
+    "notPlaying": "Не воспроизводится",
+    "unknown": "-",
+    "previous": "Предыдущий",
+    "play": "Воспроизвести",
+    "pause": "Пауза",
+    "next": "Следующий",
+    "shuffle": "Случайный порядок",
+    "repeat": "Повтор",
+    "repeatOne": "Повтор одной",
+    "noLyrics": "Нет текста",
+    "loadingLyrics": "Загрузка..."
+  },
+  "empty": {
+    "noSongs": "Нет песен",
+    "importHint": "Нажмите \"Импорт музыки\", чтобы добавить музыку"
+  },
+  "actions": {
+    "addToPlaylist": "Добавить в мой плейлист",
+    "deleteFromLibrary": "Удалить из библиотеки",
+    "deleteFromPlaylist": "Удалить из моего плейлиста"
+  },
+  "pagination": {
+    "page": "Страница {current}",
+    "totalPages": "из {total}"
+  },
+  "import": {
+    "title": "Импорт музыки",
+    "fromFolder": "Импорт из папки",
+    "fromFolderDesc": "Выберите музыкальные файлы из локальной папки",
+    "selectFiles": "Выбрать файлы",
+    "selectFilesDesc": "Выберите один или несколько музыкальных файлов",
+    "progress": "Прогресс импорта",
+    "importing": "Импорт...",
+    "scanning": "Сканирование папки...",
+    "cancel": "Отменить импорт",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Подготовка...",
+    "scanningFiles": "Сканирование...",
+    "scanningPath": "Сканирование: {path}",
+    "parsing": "Обработка: {file}",
+    "saving": "Сохранение...",
+    "writingDb": "Запись в базу данных...",
+    "complete": "Завершено",
+    "finished": "Импорт завершён!",
+    "failed": "Ошибка импорта: {error}",
+    "cancelled": "Импорт отменён",
+    "saved": "Добавлено {new} песен, пропущено {dup} дубликатов"
+  },
+  "confirm": {
+    "title": "Подтверждение",
+    "deleteFromLibrary": "Удалить из библиотеки",
+    "deleteFromLibraryDesc": "Вы уверены, что хотите удалить {count} выбранных песен из библиотеки?",
+    "deleteSongFromLibrary": "Вы уверены, что хотите удалить \"{title}\" из библиотеки?",
+    "deleteFromPlaylist": "Удалить из моего плейлиста",
+    "deleteFromPlaylistDesc": "Вы уверены, что хотите удалить {count} выбранных песен из моего плейлиста?",
+    "deleteSongFromPlaylist": "Вы уверены, что хотите удалить \"{title}\" из моего плейлиста?"
+  },
+  "errors": {
+    "permissionRequired": "Требуется разрешение на доступ к файлам",
+    "playFailed": "Ошибка воспроизведения",
+    "songNotFound": "Песня не найдена",
+    "playFailedTitle": "Невозможно воспроизвести \"{title}\"",
+    "playFailedRefresh": "После обновления страницы требуется разрешение на доступ к файлам",
+    "playFailedAction": "Пожалуйста, повторно импортируйте песни или нажмите кнопку авторизации",
+    "authorize": "Авторизовать доступ",
+    "close": "Закрыть",
+    "browserNotSupported": "Ваш браузер не поддерживает выбор папок. Пожалуйста, используйте последнюю версию Chrome или Edge.",
+    "browserNotSupportedFiles": "Ваш браузер не поддерживает выбор файлов. Пожалуйста, используйте последнюю версию Chrome или Edge."
+  },
+  "contentTitle": {
+    "allSongs": "Все песни",
+    "artist": "Исполнитель",
+    "album": "Альбом",
+    "myPlaylist": "Мой плейлист",
+    "artistFilter": "Исполнитель: {name}",
+    "albumFilter": "Альбом: {name}",
+    "searchResults": "Результаты поиска",
+    "songCount": "{count} песен"
+  },
+  "notifications": {
+    "addedToPlaylist": "Добавлено {count} песен в мой плейлист",
+    "removedFromPlaylist": "Удалено {count} песен из моего плейлиста",
+    "deletedFromLibrary": "Удалено {count} песен из библиотеки",
+    "deletedSongFromLibrary": "\"{title}\" удалена из библиотеки",
+    "deletedSongFromPlaylist": "\"{title}\" удалена из моего плейлиста"
+  }
+}

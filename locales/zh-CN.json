@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "导入音乐",
+    "search": "搜索音乐、歌手或专辑...",
+    "playAll": "播放全部",
+    "cancel": "取消",
+    "confirm": "确定",
+    "unknownArtist": "未知艺术家",
+    "unknownAlbum": "未知专辑"
+  },
+  "sidebar": {
+    "allSongs": "全部歌曲",
+    "artist": "艺术家",
+    "album": "专辑",
+    "myPlaylist": "我的歌单"
+  },
+  "songTable": {
+    "title": "歌曲",
+    "artist": "歌手",
+    "album": "专辑",
+    "duration": "时长",
+    "status": "状态",
+    "actions": "操作"
+  },
+  "player": {
+    "notPlaying": "未播放",
+    "unknown": "-",
+    "previous": "上一首",
+    "play": "播放",
+    "pause": "暂停",
+    "next": "下一首",
+    "shuffle": "随机播放",
+    "repeat": "循环播放",
+    "repeatOne": "单曲循环",
+    "noLyrics": "暂无歌词",
+    "loadingLyrics": "加载中..."
+  },
+  "empty": {
+    "noSongs": "暂无歌曲",
+    "importHint": "点击「导入音乐」开始添加您的音乐"
+  },
+  "actions": {
+    "addToPlaylist": "添加到我的歌单",
+    "deleteFromLibrary": "从音乐库删除",
+    "deleteFromPlaylist": "从我的歌单删除"
+  },
+  "pagination": {
+    "page": "第 {current} 页",
+    "totalPages": "共 {total} 页"
+  },
+  "import": {
+    "title": "导入音乐",
+    "fromFolder": "从文件夹导入",
+    "fromFolderDesc": "选择本地文件夹中的音乐文件",
+    "selectFiles": "选择音乐文件",
+    "selectFilesDesc": "选择一个或多个音乐文件",
+    "progress": "导入进度",
+    "importing": "正在导入...",
+    "scanning": "正在扫描文件夹...",
+    "cancel": "取消导入",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "准备导入...",
+    "scanningFiles": "扫描中...",
+    "scanningPath": "正在扫描：{path}",
+    "parsing": "正在解析：{file}",
+    "saving": "保存中...",
+    "writingDb": "正在写入数据库...",
+    "complete": "完成",
+    "finished": "导入完成！",
+    "failed": "导入失败：{error}",
+    "cancelled": "导入已取消",
+    "saved": "已存入 {new} 首新歌曲，跳过 {dup} 首重复"
+  },
+  "confirm": {
+    "title": "确认操作",
+    "deleteFromLibrary": "从音乐库删除",
+    "deleteFromLibraryDesc": "确定要从音乐库删除选中的 {count} 首歌曲吗？",
+    "deleteSongFromLibrary": "确定要从音乐库删除歌曲\"{title}\"吗？",
+    "deleteFromPlaylist": "从我的歌单删除",
+    "deleteFromPlaylistDesc": "确定要从我的歌单删除选中的 {count} 首歌曲吗？",
+    "deleteSongFromPlaylist": "确定要从我的歌单删除歌曲\"{title}\"吗？"
+  },
+  "errors": {
+    "permissionRequired": "需要授权访问文件",
+    "playFailed": "播放失败",
+    "songNotFound": "歌曲记录不存在",
+    "playFailedTitle": "无法播放 \"{title}\"",
+    "playFailedRefresh": "页面刷新后需要重新授权访问文件",
+    "playFailedAction": "请重新导入歌曲或点击授权按钮",
+    "authorize": "授权访问",
+    "close": "关闭",
+    "browserNotSupported": "您的浏览器不支持文件夹选择功能，请使用最新版本的 Chrome 或 Edge。",
+    "browserNotSupportedFiles": "您的浏览器不支持文件选择功能，请使用最新版本的 Chrome 或 Edge。"
+  },
+  "contentTitle": {
+    "allSongs": "全部歌曲",
+    "artist": "艺术家",
+    "album": "专辑",
+    "myPlaylist": "我的歌单",
+    "artistFilter": "艺术家: {name}",
+    "albumFilter": "专辑: {name}",
+    "searchResults": "搜索结果",
+    "songCount": "{count}首"
+  },
+  "notifications": {
+    "addedToPlaylist": "已添加 {count} 首歌曲到我的歌单",
+    "removedFromPlaylist": "已从我的歌单删除 {count} 首歌曲",
+    "deletedFromLibrary": "已从音乐库删除 {count} 首歌曲",
+    "deletedSongFromLibrary": "已从音乐库删除歌曲\"{title}\"",
+    "deletedSongFromPlaylist": "已从我的歌单删除歌曲\"{title}\""
+  }
+}

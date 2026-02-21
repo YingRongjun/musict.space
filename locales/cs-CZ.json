@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Importovat hudbu",
+    "search": "Hledat hudbu, umělce nebo album...",
+    "playAll": "Přehrát vše",
+    "cancel": "Zrušit",
+    "confirm": "Potvrdit",
+    "unknownArtist": "Neznámý umělec",
+    "unknownAlbum": "Neznámé album"
+  },
+  "sidebar": {
+    "allSongs": "Všechny skladby",
+    "artist": "Umělec",
+    "album": "Album",
+    "myPlaylist": "Můj playlist"
+  },
+  "songTable": {
+    "title": "Název",
+    "artist": "Umělec",
+    "album": "Album",
+    "duration": "Délka",
+    "status": "Stav",
+    "actions": "Akce"
+  },
+  "player": {
+    "notPlaying": "Nepřehrává se",
+    "unknown": "-",
+    "previous": "Předchozí",
+    "play": "Přehrát",
+    "pause": "Pauza",
+    "next": "Další",
+    "shuffle": "Náhodně",
+    "repeat": "Opakovat",
+    "repeatOne": "Opakovat jednu",
+    "noLyrics": "Bez textu",
+    "loadingLyrics": "Načítání..."
+  },
+  "empty": {
+    "noSongs": "Žádné skladby",
+    "importHint": "Klikněte na \"Importovat hudbu\" pro přidání hudby"
+  },
+  "actions": {
+    "addToPlaylist": "Přidat do mého playlistu",
+    "deleteFromLibrary": "Smazat z knihovny",
+    "deleteFromPlaylist": "Odebrat z mého playlistu"
+  },
+  "pagination": {
+    "page": "Stránka {current}",
+    "totalPages": "z {total} stránek"
+  },
+  "import": {
+    "title": "Importovat hudbu",
+    "fromFolder": "Importovat ze složky",
+    "fromFolderDesc": "Vyberte hudební soubory z místní složky",
+    "selectFiles": "Vyberte hudební soubory",
+    "selectFilesDesc": "Vyberte jeden nebo více hudebních souborů",
+    "progress": "Průběh importu",
+    "importing": "Importování...",
+    "scanning": "Skenování složky...",
+    "cancel": "Zrušit import",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Příprava...",
+    "scanningFiles": "Skenování...",
+    "scanningPath": "Skenování: {path}",
+    "parsing": "Analýza: {file}",
+    "saving": "Ukládání...",
+    "writingDb": "Zápis do databáze...",
+    "complete": "Dokončeno",
+    "finished": "Import dokončen!",
+    "failed": "Import selhal: {error}",
+    "cancelled": "Import zrušen",
+    "saved": "Uloženo {new} nových skladeb, přeskočeno {dup} duplikátů"
+  },
+  "confirm": {
+    "title": "Potvrdit",
+    "deleteFromLibrary": "Smazat z knihovny",
+    "deleteFromLibraryDesc": "Opravdu chcete smazat {count} vybraných skladeb z knihovny?",
+    "deleteSongFromLibrary": "Opravdu chcete smazat \"{title}\" z knihovny?",
+    "deleteFromPlaylist": "Odebrat z mého playlistu",
+    "deleteFromPlaylistDesc": "Opravdu chcete odebrat {count} vybraných skladeb z mého playlistu?",
+    "deleteSongFromPlaylist": "Opravdu chcete odebrat \"{title}\" z mého playlistu?"
+  },
+  "errors": {
+    "permissionRequired": "Vyžadováno oprávnění k přístupu k souborům",
+    "playFailed": "Přehrávání selhalo",
+    "songNotFound": "Skladba nenalezena",
+    "playFailedTitle": "Nelze přehrát \"{title}\"",
+    "playFailedRefresh": "Vyžadováno oprávnění k přístupu k souborům po obnovení stránky",
+    "playFailedAction": "Prosím importujte skladby znovu nebo klikněte na tlačítko autorizace",
+    "authorize": "Autorizovat přístup",
+    "close": "Zavřít",
+    "browserNotSupported": "Váš prohlížeč nepodporuje výběr složky. Prosím použijte nejnovější verzi Chrome nebo Edge.",
+    "browserNotSupportedFiles": "Váš prohlížeč nepodporuje výběr souborů. Prosím použijte nejnovější verzi Chrome nebo Edge."
+  },
+  "contentTitle": {
+    "allSongs": "Všechny skladby",
+    "artist": "Umělec",
+    "album": "Album",
+    "myPlaylist": "Můj playlist",
+    "artistFilter": "Umělec: {name}",
+    "albumFilter": "Album: {name}",
+    "searchResults": "Výsledky hledání",
+    "songCount": "{count} skladeb"
+  },
+  "notifications": {
+    "addedToPlaylist": "Přidáno {count} skladeb do mého playlistu",
+    "removedFromPlaylist": "Odebráno {count} skladeb z mého playlistu",
+    "deletedFromLibrary": "Smazáno {count} skladeb z knihovny",
+    "deletedSongFromLibrary": "Smazána \"{title}\" z knihovny",
+    "deletedSongFromPlaylist": "Odebrána \"{title}\" z mého playlistu"
+  }
+}

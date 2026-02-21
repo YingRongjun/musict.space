@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Tuo musiikkia",
+    "search": "Etsi musiikkia, artistia tai albumia...",
+    "playAll": "Toista kaikki",
+    "cancel": "Peruuta",
+    "confirm": "Vahvista",
+    "unknownArtist": "Tuntematon artisti",
+    "unknownAlbum": "Tuntematon albumi"
+  },
+  "sidebar": {
+    "allSongs": "Kaikki kappaleet",
+    "artist": "Artisti",
+    "album": "Albumi",
+    "myPlaylist": "Oma soittolista"
+  },
+  "songTable": {
+    "title": "Nimi",
+    "artist": "Artisti",
+    "album": "Albumi",
+    "duration": "Kesto",
+    "status": "Tila",
+    "actions": "Toiminnot"
+  },
+  "player": {
+    "notPlaying": "Ei toisteta",
+    "unknown": "-",
+    "previous": "Edellinen",
+    "play": "Toista",
+    "pause": "Keskeytä",
+    "next": "Seuraava",
+    "shuffle": "Sekoita",
+    "repeat": "Toista",
+    "repeatOne": "Toista yksi",
+    "noLyrics": "Ei sanoja",
+    "loadingLyrics": "Ladataan..."
+  },
+  "empty": {
+    "noSongs": "Ei kappaleita",
+    "importHint": "Klikkaa \"Tuo musiikkia\" lisätäksesi musiikkia"
+  },
+  "actions": {
+    "addToPlaylist": "Lisää omaan soittolistaan",
+    "deleteFromLibrary": "Poista kirjastosta",
+    "deleteFromPlaylist": "Poista omasta soittolistasta"
+  },
+  "pagination": {
+    "page": "Sivu {current}",
+    "totalPages": "/ {total} sivua"
+  },
+  "import": {
+    "title": "Tuo musiikkia",
+    "fromFolder": "Tuo kansiosta",
+    "fromFolderDesc": "Valitse musiikkitiedostot paikallisesta kansiosta",
+    "selectFiles": "Valitse musiikkitiedostot",
+    "selectFilesDesc": "Valitse yksi tai useampi musiikkitiedosto",
+    "progress": "Tuontiedistyminen",
+    "importing": "Tuodaan...",
+    "scanning": "Skannataan kansiota...",
+    "cancel": "Peruuta tuonti",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Valmistellaan...",
+    "scanningFiles": "Skannataan...",
+    "scanningPath": "Skannataan: {path}",
+    "parsing": "Jäsennetään: {file}",
+    "saving": "Tallennetaan...",
+    "writingDb": "Kirjoitetaan tietokantaan...",
+    "complete": "Valmis",
+    "finished": "Tuonti valmis!",
+    "failed": "Tuonti epäonnistui: {error}",
+    "cancelled": "Tuonti peruutettu",
+    "saved": "Tallennettu {new} uutta kappaletta, ohitettu {dup} kaksoiskappaleta"
+  },
+  "confirm": {
+    "title": "Vahvista",
+    "deleteFromLibrary": "Poista kirjastosta",
+    "deleteFromLibraryDesc": "Haluatko varmasti poistaa {count} valittua kappaletta kirjastosta?",
+    "deleteSongFromLibrary": "Haluatko varmasti poistaa \"{title}\" kirjastosta?",
+    "deleteFromPlaylist": "Poista omasta soittolistasta",
+    "deleteFromPlaylistDesc": "Haluatko varmasti poistaa {count} valittua kappaletta omasta soittolistasta?",
+    "deleteSongFromPlaylist": "Haluatko varmasti poistaa \"{title}\" omasta soittolistasta?"
+  },
+  "errors": {
+    "permissionRequired": "Tiedoston käyttöoikeus vaaditaan",
+    "playFailed": "Toisto epäonnistui",
+    "songNotFound": "Kappaletta ei löydy",
+    "playFailedTitle": "Ei voida toistaa \"{title}\"",
+    "playFailedRefresh": "Tiedoston käyttöoikeus vaaditaan sivun päivityksen jälkeen",
+    "playFailedAction": "Tuoda kappaleet uudelleen tai klikkaa valtuuta-painiketta",
+    "authorize": "Valtuuta käyttö",
+    "close": "Sulje",
+    "browserNotSupported": "Selaimesi ei tue kansion valintaa. Käytä uusinta Chrome tai Edge versiota.",
+    "browserNotSupportedFiles": "Selaimesi ei tue tiedoston valintaa. Käytä uusinta Chrome tai Edge versiota."
+  },
+  "contentTitle": {
+    "allSongs": "Kaikki kappaleet",
+    "artist": "Artisti",
+    "album": "Albumi",
+    "myPlaylist": "Oma soittolista",
+    "artistFilter": "Artisti: {name}",
+    "albumFilter": "Albumi: {name}",
+    "searchResults": "Hakutulokset",
+    "songCount": "{count} kappaletta"
+  },
+  "notifications": {
+    "addedToPlaylist": "Lisätty {count} kappaletta omaan soittolistaan",
+    "removedFromPlaylist": "Poistettu {count} kappaletta omasta soittolistasta",
+    "deletedFromLibrary": "Poistettu {count} kappaletta kirjastosta",
+    "deletedSongFromLibrary": "Poistettu \"{title}\" kirjastosta",
+    "deletedSongFromPlaylist": "Poistettu \"{title}\" omasta soittolistasta"
+  }
+}

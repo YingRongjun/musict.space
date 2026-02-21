@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Importera musik",
+    "search": "Sök musik, artist eller album...",
+    "playAll": "Spela alla",
+    "cancel": "Avbryt",
+    "confirm": "Bekräfta",
+    "unknownArtist": "Okänd artist",
+    "unknownAlbum": "Okänt album"
+  },
+  "sidebar": {
+    "allSongs": "Alla låtar",
+    "artist": "Artist",
+    "album": "Album",
+    "myPlaylist": "Min spellista"
+  },
+  "songTable": {
+    "title": "Titel",
+    "artist": "Artist",
+    "album": "Album",
+    "duration": "Längd",
+    "status": "Status",
+    "actions": "Åtgärder"
+  },
+  "player": {
+    "notPlaying": "Spelar inte",
+    "unknown": "-",
+    "previous": "Föregående",
+    "play": "Spela",
+    "pause": "Pausa",
+    "next": "Nästa",
+    "shuffle": "Blanda",
+    "repeat": "Upprepa",
+    "repeatOne": "Upprepa en",
+    "noLyrics": "Ingen sångtext",
+    "loadingLyrics": "Laddar..."
+  },
+  "empty": {
+    "noSongs": "Inga låtar",
+    "importHint": "Klicka på \"Importera musik\" för att lägga till musik"
+  },
+  "actions": {
+    "addToPlaylist": "Lägg till i min spellista",
+    "deleteFromLibrary": "Ta bort från biblioteket",
+    "deleteFromPlaylist": "Ta bort från min spellista"
+  },
+  "pagination": {
+    "page": "Sida {current}",
+    "totalPages": "av {total} sidor"
+  },
+  "import": {
+    "title": "Importera musik",
+    "fromFolder": "Importera från mapp",
+    "fromFolderDesc": "Välj musikfiler från en lokal mapp",
+    "selectFiles": "Välj musikfiler",
+    "selectFilesDesc": "Välj en eller flera musikfiler",
+    "progress": "Importförlopp",
+    "importing": "Importerar...",
+    "scanning": "Skannar mapp...",
+    "cancel": "Avbryt import",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Förbereder...",
+    "scanningFiles": "Skannar...",
+    "scanningPath": "Skannar: {path}",
+    "parsing": "Analyserar: {file}",
+    "saving": "Sparar...",
+    "writingDb": "Skriver till databas...",
+    "complete": "Klar",
+    "finished": "Import klar!",
+    "failed": "Import misslyckades: {error}",
+    "cancelled": "Import avbruten",
+    "saved": "Sparade {new} nya låtar, hoppade över {dup} dubbletter"
+  },
+  "confirm": {
+    "title": "Bekräfta",
+    "deleteFromLibrary": "Ta bort från biblioteket",
+    "deleteFromLibraryDesc": "Är du säker på att du vill ta bort {count} valda låtar från biblioteket?",
+    "deleteSongFromLibrary": "Är du säker på att du vill ta bort \"{title}\" från biblioteket?",
+    "deleteFromPlaylist": "Ta bort från min spellista",
+    "deleteFromPlaylistDesc": "Är du säker på att du vill ta bort {count} valda låtar från min spellista?",
+    "deleteSongFromPlaylist": "Är du säker på att du vill ta bort \"{title}\" från min spellista?"
+  },
+  "errors": {
+    "permissionRequired": "Filåtkomstbehörighet krävs",
+    "playFailed": "Uppspelning misslyckades",
+    "songNotFound": "Låten hittades inte",
+    "playFailedTitle": "Kan inte spela \"{title}\"",
+    "playFailedRefresh": "Filåtkomstbehörighet krävs efter siduppdatering",
+    "playFailedAction": "Vänligen importera låtar igen eller klicka på auktorisera-knappen",
+    "authorize": "Auktorisera åtkomst",
+    "close": "Stäng",
+    "browserNotSupported": "Din webbläsare stöder inte mappval. Vänligen använd den senaste versionen av Chrome eller Edge.",
+    "browserNotSupportedFiles": "Din webbläsare stöder inte filval. Vänligen använd den senaste versionen av Chrome eller Edge."
+  },
+  "contentTitle": {
+    "allSongs": "Alla låtar",
+    "artist": "Artist",
+    "album": "Album",
+    "myPlaylist": "Min spellista",
+    "artistFilter": "Artist: {name}",
+    "albumFilter": "Album: {name}",
+    "searchResults": "Sökresultat",
+    "songCount": "{count} låtar"
+  },
+  "notifications": {
+    "addedToPlaylist": "Lade till {count} låtar i min spellista",
+    "removedFromPlaylist": "Tog bort {count} låtar från min spellista",
+    "deletedFromLibrary": "Tog bort {count} låtar från biblioteket",
+    "deletedSongFromLibrary": "Tog bort \"{title}\" från biblioteket",
+    "deletedSongFromPlaylist": "Tog bort \"{title}\" från min spellista"
+  }
+}

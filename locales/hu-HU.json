@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Zene importálása",
+    "search": "Zene, előadó vagy album keresése...",
+    "playAll": "Összes lejátszása",
+    "cancel": "Mégse",
+    "confirm": "Megerősítés",
+    "unknownArtist": "Ismeretlen előadó",
+    "unknownAlbum": "Ismeretlen album"
+  },
+  "sidebar": {
+    "allSongs": "Összes dal",
+    "artist": "Előadó",
+    "album": "Album",
+    "myPlaylist": "Saját lejátszási lista"
+  },
+  "songTable": {
+    "title": "Cím",
+    "artist": "Előadó",
+    "album": "Album",
+    "duration": "Időtartam",
+    "status": "Állapot",
+    "actions": "Műveletek"
+  },
+  "player": {
+    "notPlaying": "Nem játszik",
+    "unknown": "-",
+    "previous": "Előző",
+    "play": "Lejátszás",
+    "pause": "Szünet",
+    "next": "Következő",
+    "shuffle": "Véletlenszerű",
+    "repeat": "Ismétlés",
+    "repeatOne": "Egy ismétlése",
+    "noLyrics": "Nincs dalszöveg",
+    "loadingLyrics": "Betöltés..."
+  },
+  "empty": {
+    "noSongs": "Nincsenek dalok",
+    "importHint": "Kattintson a \"Zene importálása\" gombra zene hozzáadásához"
+  },
+  "actions": {
+    "addToPlaylist": "Hozzáadás a lejátszási listához",
+    "deleteFromLibrary": "Törlés a könyvtárból",
+    "deleteFromPlaylist": "Eltávolítás a lejátszási listáról"
+  },
+  "pagination": {
+    "page": "{current}. oldal",
+    "totalPages": "/ {total} oldal"
+  },
+  "import": {
+    "title": "Zene importálása",
+    "fromFolder": "Importálás mappából",
+    "fromFolderDesc": "Válasszon zenei fájlokat egy helyi mappából",
+    "selectFiles": "Zenei fájlok kiválasztása",
+    "selectFilesDesc": "Válasszon egy vagy több zenei fájlt",
+    "progress": "Importálás előrehaladása",
+    "importing": "Importálás...",
+    "scanning": "Mappa szkennelése...",
+    "cancel": "Importálás megszakítása",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Előkészítés...",
+    "scanningFiles": "Szkennelés...",
+    "scanningPath": "Szkennelés: {path}",
+    "parsing": "Elemzés: {file}",
+    "saving": "Mentés...",
+    "writingDb": "Írás az adatbázisba...",
+    "complete": "Befejezve",
+    "finished": "Az importálás befejeződött!",
+    "failed": "Az importálás sikertelen: {error}",
+    "cancelled": "Az importálás megszakítva",
+    "saved": "{new} új dal mentve, {dup} duplikátum kihagyva"
+  },
+  "confirm": {
+    "title": "Megerősítés",
+    "deleteFromLibrary": "Törlés a könyvtárból",
+    "deleteFromLibraryDesc": "Biztosan törölni szeretné a kiválasztott {count} dalt a könyvtárból?",
+    "deleteSongFromLibrary": "Biztosan törölni szeretné a(z) \"{title}\" dalt a könyvtárból?",
+    "deleteFromPlaylist": "Eltávolítás a lejátszási listáról",
+    "deleteFromPlaylistDesc": "Biztosan el szeretné távolítani a kiválasztott {count} dalt a lejátszási listáról?",
+    "deleteSongFromPlaylist": "Biztosan el szeretné távolítani a(z) \"{title}\" dalt a lejátszási listáról?"
+  },
+  "errors": {
+    "permissionRequired": "Fájl hozzáférési engedély szükséges",
+    "playFailed": "A lejátszás sikertelen",
+    "songNotFound": "A dal nem található",
+    "playFailedTitle": "Nem lehet lejátszani: \"{title}\"",
+    "playFailedRefresh": "Fájl hozzáférési engedély szükséges az oldal frissítése után",
+    "playFailedAction": "Kérjük importálja újra a dalokat vagy kattintson az engedélyezés gombra",
+    "authorize": "Hozzáférés engedélyezése",
+    "close": "Bezárás",
+    "browserNotSupported": "A böngészője nem támogatja a mappa kiválasztását. Kérjük használja a Chrome vagy Edge legújabb verzióját.",
+    "browserNotSupportedFiles": "A böngészője nem támogatja a fájl kiválasztását. Kérjük használja a Chrome vagy Edge legújabb verzióját."
+  },
+  "contentTitle": {
+    "allSongs": "Összes dal",
+    "artist": "Előadó",
+    "album": "Album",
+    "myPlaylist": "Saját lejátszási lista",
+    "artistFilter": "Előadó: {name}",
+    "albumFilter": "Album: {name}",
+    "searchResults": "Keresési eredmények",
+    "songCount": "{count} dal"
+  },
+  "notifications": {
+    "addedToPlaylist": "{count} dal hozzáadva a lejátszási listához",
+    "removedFromPlaylist": "{count} dal eltávolítva a lejátszási listáról",
+    "deletedFromLibrary": "{count} dal törölve a könyvtárból",
+    "deletedSongFromLibrary": "\"{title}\" törölve a könyvtárból",
+    "deletedSongFromPlaylist": "\"{title}\" eltávolítva a lejátszási listáról"
+  }
+}

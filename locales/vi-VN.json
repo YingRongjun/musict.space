@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Nhập nhạc",
+    "search": "Tìm kiếm nhạc, nghệ sĩ hoặc album...",
+    "playAll": "Phát tất cả",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "unknownArtist": "Nghệ sĩ không xác định",
+    "unknownAlbum": "Album không xác định"
+  },
+  "sidebar": {
+    "allSongs": "Tất cả bài hát",
+    "artist": "Nghệ sĩ",
+    "album": "Album",
+    "myPlaylist": "Danh sách phát của tôi"
+  },
+  "songTable": {
+    "title": "Tiêu đề",
+    "artist": "Nghệ sĩ",
+    "album": "Album",
+    "duration": "Thời lượng",
+    "status": "Trạng thái",
+    "actions": "Hành động"
+  },
+  "player": {
+    "notPlaying": "Không phát",
+    "unknown": "-",
+    "previous": "Trước",
+    "play": "Phát",
+    "pause": "Tạm dừng",
+    "next": "Tiếp theo",
+    "shuffle": "Ngẫu nhiên",
+    "repeat": "Lặp lại",
+    "repeatOne": "Lặp lại một",
+    "noLyrics": "Không có lời",
+    "loadingLyrics": "Đang tải..."
+  },
+  "empty": {
+    "noSongs": "Không có bài hát",
+    "importHint": "Nhấp \"Nhập nhạc\" để thêm nhạc"
+  },
+  "actions": {
+    "addToPlaylist": "Thêm vào danh sách phát của tôi",
+    "deleteFromLibrary": "Xóa khỏi thư viện",
+    "deleteFromPlaylist": "Xóa khỏi danh sách phát của tôi"
+  },
+  "pagination": {
+    "page": "Trang {current}",
+    "totalPages": "trên {total} trang"
+  },
+  "import": {
+    "title": "Nhập nhạc",
+    "fromFolder": "Nhập từ thư mục",
+    "fromFolderDesc": "Chọn tệp nhạc từ thư mục cục bộ",
+    "selectFiles": "Chọn tệp nhạc",
+    "selectFilesDesc": "Chọn một hoặc nhiều tệp nhạc",
+    "progress": "Tiến trình nhập",
+    "importing": "Đang nhập...",
+    "scanning": "Đang quét thư mục...",
+    "cancel": "Hủy nhập",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Đang chuẩn bị...",
+    "scanningFiles": "Đang quét...",
+    "scanningPath": "Đang quét: {path}",
+    "parsing": "Đang phân tích: {file}",
+    "saving": "Đang lưu...",
+    "writingDb": "Đang ghi vào cơ sở dữ liệu...",
+    "complete": "Hoàn thành",
+    "finished": "Nhập hoàn tất!",
+    "failed": "Nhập thất bại: {error}",
+    "cancelled": "Nhập đã bị hủy",
+    "saved": "Đã lưu {new} bài hát mới, bỏ qua {dup} bản trùng"
+  },
+  "confirm": {
+    "title": "Xác nhận",
+    "deleteFromLibrary": "Xóa khỏi thư viện",
+    "deleteFromLibraryDesc": "Bạn có chắc muốn xóa {count} bài hát đã chọn khỏi thư viện?",
+    "deleteSongFromLibrary": "Bạn có chắc muốn xóa \"{title}\" khỏi thư viện?",
+    "deleteFromPlaylist": "Xóa khỏi danh sách phát của tôi",
+    "deleteFromPlaylistDesc": "Bạn có chắc muốn xóa {count} bài hát đã chọn khỏi danh sách phát của tôi?",
+    "deleteSongFromPlaylist": "Bạn có chắc muốn xóa \"{title}\" khỏi danh sách phát của tôi?"
+  },
+  "errors": {
+    "permissionRequired": "Cần quyền truy cập tệp",
+    "playFailed": "Phát thất bại",
+    "songNotFound": "Không tìm thấy bài hát",
+    "playFailedTitle": "Không thể phát \"{title}\"",
+    "playFailedRefresh": "Cần quyền truy cập tệp sau khi làm mới trang",
+    "playFailedAction": "Vui lòng nhập lại bài hát hoặc nhấp nút cấp quyền",
+    "authorize": "Cấp quyền truy cập",
+    "close": "Đóng",
+    "browserNotSupported": "Trình duyệt của bạn không hỗ trợ chọn thư mục. Vui lòng sử dụng phiên bản Chrome hoặc Edge mới nhất.",
+    "browserNotSupportedFiles": "Trình duyệt của bạn không hỗ trợ chọn tệp. Vui lòng sử dụng phiên bản Chrome hoặc Edge mới nhất."
+  },
+  "contentTitle": {
+    "allSongs": "Tất cả bài hát",
+    "artist": "Nghệ sĩ",
+    "album": "Album",
+    "myPlaylist": "Danh sách phát của tôi",
+    "artistFilter": "Nghệ sĩ: {name}",
+    "albumFilter": "Album: {name}",
+    "searchResults": "Kết quả tìm kiếm",
+    "songCount": "{count} bài hát"
+  },
+  "notifications": {
+    "addedToPlaylist": "Đã thêm {count} bài hát vào danh sách phát của tôi",
+    "removedFromPlaylist": "Đã xóa {count} bài hát khỏi danh sách phát của tôi",
+    "deletedFromLibrary": "Đã xóa {count} bài hát khỏi thư viện",
+    "deletedSongFromLibrary": "Đã xóa \"{title}\" khỏi thư viện",
+    "deletedSongFromPlaylist": "Đã xóa \"{title}\" khỏi danh sách phát của tôi"
+  }
+}

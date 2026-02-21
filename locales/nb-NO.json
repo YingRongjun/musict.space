@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "Importer musikk",
+    "search": "Søk etter musikk, artist eller album...",
+    "playAll": "Spill alle",
+    "cancel": "Avbryt",
+    "confirm": "Bekreft",
+    "unknownArtist": "Ukjent artist",
+    "unknownAlbum": "Ukjent album"
+  },
+  "sidebar": {
+    "allSongs": "Alle sanger",
+    "artist": "Artist",
+    "album": "Album",
+    "myPlaylist": "Min spilleliste"
+  },
+  "songTable": {
+    "title": "Tittel",
+    "artist": "Artist",
+    "album": "Album",
+    "duration": "Varighet",
+    "status": "Status",
+    "actions": "Handlinger"
+  },
+  "player": {
+    "notPlaying": "Spiller ikke",
+    "unknown": "-",
+    "previous": "Forrige",
+    "play": "Spill",
+    "pause": "Pause",
+    "next": "Neste",
+    "shuffle": "Tilfeldig",
+    "repeat": "Gjenta",
+    "repeatOne": "Gjenta én",
+    "noLyrics": "Ingen sangtekst",
+    "loadingLyrics": "Laster..."
+  },
+  "empty": {
+    "noSongs": "Ingen sanger",
+    "importHint": "Klikk \"Importer musikk\" for å legge til musikk"
+  },
+  "actions": {
+    "addToPlaylist": "Legg til i min spilleliste",
+    "deleteFromLibrary": "Slett fra bibliotek",
+    "deleteFromPlaylist": "Fjern fra min spilleliste"
+  },
+  "pagination": {
+    "page": "Side {current}",
+    "totalPages": "av {total} sider"
+  },
+  "import": {
+    "title": "Importer musikk",
+    "fromFolder": "Importer fra mappe",
+    "fromFolderDesc": "Velg musikkfiler fra en lokal mappe",
+    "selectFiles": "Velg musikkfiler",
+    "selectFilesDesc": "Velg én eller flere musikkfiler",
+    "progress": "Importframgang",
+    "importing": "Importerer...",
+    "scanning": "Skanner mappe...",
+    "cancel": "Avbryt import",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "Forbereder...",
+    "scanningFiles": "Skanner...",
+    "scanningPath": "Skanner: {path}",
+    "parsing": "Analyserer: {file}",
+    "saving": "Lagrer...",
+    "writingDb": "Skriver til database...",
+    "complete": "Fullført",
+    "finished": "Import fullført!",
+    "failed": "Import mislyktes: {error}",
+    "cancelled": "Import avbrutt",
+    "saved": "Lagret {new} nye sanger, hoppet over {dup} duplikater"
+  },
+  "confirm": {
+    "title": "Bekreft",
+    "deleteFromLibrary": "Slett fra bibliotek",
+    "deleteFromLibraryDesc": "Er du sikker på at du vil slette {count} valgte sanger fra biblioteket?",
+    "deleteSongFromLibrary": "Er du sikker på at du vil slette \"{title}\" fra biblioteket?",
+    "deleteFromPlaylist": "Fjern fra min spilleliste",
+    "deleteFromPlaylistDesc": "Er du sikker på at du vil fjerne {count} valgte sanger fra min spilleliste?",
+    "deleteSongFromPlaylist": "Er du sikker på at du vil fjerne \"{title}\" fra min spilleliste?"
+  },
+  "errors": {
+    "permissionRequired": "Filtilgang kreves",
+    "playFailed": "Avspilling mislyktes",
+    "songNotFound": "Sang ikke funnet",
+    "playFailedTitle": "Kan ikke spille \"{title}\"",
+    "playFailedRefresh": "Filtilgang kreves etter sideoppdatering",
+    "playFailedAction": "Vennligst importer sanger på nytt eller klikk autoriser-knappen",
+    "authorize": "Autoriser tilgang",
+    "close": "Lukk",
+    "browserNotSupported": "Nettleseren din støtter ikke mappevalg. Vennligst bruk nyeste versjon av Chrome eller Edge.",
+    "browserNotSupportedFiles": "Nettleseren din støtter ikke filvalg. Vennligst bruk nyeste versjon av Chrome eller Edge."
+  },
+  "contentTitle": {
+    "allSongs": "Alle sanger",
+    "artist": "Artist",
+    "album": "Album",
+    "myPlaylist": "Min spilleliste",
+    "artistFilter": "Artist: {name}",
+    "albumFilter": "Album: {name}",
+    "searchResults": "Søkeresultater",
+    "songCount": "{count} sanger"
+  },
+  "notifications": {
+    "addedToPlaylist": "La til {count} sanger i min spilleliste",
+    "removedFromPlaylist": "Fjernet {count} sanger fra min spilleliste",
+    "deletedFromLibrary": "Slettet {count} sanger fra biblioteket",
+    "deletedSongFromLibrary": "Slettet \"{title}\" fra biblioteket",
+    "deletedSongFromPlaylist": "Fjernet \"{title}\" fra min spilleliste"
+  }
+}

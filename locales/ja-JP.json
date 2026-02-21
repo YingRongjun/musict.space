@@ -1,0 +1,113 @@
+{
+  "common": {
+    "import": "音楽をインポート",
+    "search": "曲名、アーティスト、アルバムを検索...",
+    "playAll": "すべて再生",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "unknownArtist": "不明なアーティスト",
+    "unknownAlbum": "不明なアルバム"
+  },
+  "sidebar": {
+    "allSongs": "すべての曲",
+    "artist": "アーティスト",
+    "album": "アルバム",
+    "myPlaylist": "マイプレイリスト"
+  },
+  "songTable": {
+    "title": "タイトル",
+    "artist": "アーティスト",
+    "album": "アルバム",
+    "duration": "長さ",
+    "status": "ステータス",
+    "actions": "操作"
+  },
+  "player": {
+    "notPlaying": "再生中ではありません",
+    "unknown": "-",
+    "previous": "前へ",
+    "play": "再生",
+    "pause": "一時停止",
+    "next": "次へ",
+    "shuffle": "シャッフル",
+    "repeat": "リピート",
+    "repeatOne": "1曲リピート",
+    "noLyrics": "歌詞なし",
+    "loadingLyrics": "読み込み中..."
+  },
+  "empty": {
+    "noSongs": "曲がありません",
+    "importHint": "「音楽をインポート」をクリックして曲を追加してください"
+  },
+  "actions": {
+    "addToPlaylist": "マイプレイリストに追加",
+    "deleteFromLibrary": "ライブラリから削除",
+    "deleteFromPlaylist": "マイプレイリストから削除"
+  },
+  "pagination": {
+    "page": "{current}ページ",
+    "totalPages": "全{total}ページ"
+  },
+  "import": {
+    "title": "音楽をインポート",
+    "fromFolder": "フォルダからインポート",
+    "fromFolderDesc": "ローカルフォルダから音楽ファイルを選択",
+    "selectFiles": "音楽ファイルを選択",
+    "selectFilesDesc": "1つ以上の音楽ファイルを選択",
+    "progress": "インポート進捗",
+    "importing": "インポート中...",
+    "scanning": "フォルダをスキャン中...",
+    "cancel": "インポートをキャンセル",
+    "count": "{current} / {total}",
+    "percentage": "{percent}%",
+    "preparing": "準備中...",
+    "scanningFiles": "スキャン中...",
+    "scanningPath": "スキャン中: {path}",
+    "parsing": "解析中: {file}",
+    "saving": "保存中...",
+    "writingDb": "データベースに書き込み中...",
+    "complete": "完了",
+    "finished": "インポート完了！",
+    "failed": "インポート失敗: {error}",
+    "cancelled": "インポートがキャンセルされました",
+    "saved": "{new}曲を追加、{dup}曲の重複をスキップ"
+  },
+  "confirm": {
+    "title": "確認",
+    "deleteFromLibrary": "ライブラリから削除",
+    "deleteFromLibraryDesc": "選択した{count}曲をライブラリから削除しますか？",
+    "deleteSongFromLibrary": "「{title}」をライブラリから削除しますか？",
+    "deleteFromPlaylist": "マイプレイリストから削除",
+    "deleteFromPlaylistDesc": "選択した{count}曲をマイプレイリストから削除しますか？",
+    "deleteSongFromPlaylist": "「{title}」をマイプレイリストから削除しますか？"
+  },
+  "errors": {
+    "permissionRequired": "ファイルアクセスの許可が必要です",
+    "playFailed": "再生に失敗しました",
+    "songNotFound": "曲が見つかりません",
+    "playFailedTitle": "「{title}」を再生できません",
+    "playFailedRefresh": "ページ更新後にファイルアクセスの許可が必要です",
+    "playFailedAction": "曲を再インポートするか、認証ボタンをクリックしてください",
+    "authorize": "アクセスを許可",
+    "close": "閉じる",
+    "browserNotSupported": "お使いのブラウザはフォルダ選択に対応していません。最新版のChromeまたはEdgeをご使用ください。",
+    "browserNotSupportedFiles": "お使いのブラウザはファイル選択に対応していません。最新版のChromeまたはEdgeをご使用ください。"
+  },
+  "contentTitle": {
+    "allSongs": "すべての曲",
+    "artist": "アーティスト",
+    "album": "アルバム",
+    "myPlaylist": "マイプレイリスト",
+    "artistFilter": "アーティスト: {name}",
+    "albumFilter": "アルバム: {name}",
+    "searchResults": "検索結果",
+    "songCount": "{count}曲"
+  },
+  "notifications": {
+    "addedToPlaylist": "{count}曲をマイプレイリストに追加しました",
+    "removedFromPlaylist": "{count}曲をマイプレイリストから削除しました",
+    "deletedFromLibrary": "{count}曲をライブラリから削除しました",
+    "deletedSongFromLibrary": "「{title}」をライブラリから削除しました",
+    "deletedSongFromPlaylist": "「{title}」をマイプレイリストから削除しました"
+  }
+}
