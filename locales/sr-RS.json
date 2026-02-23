@@ -8,6 +8,17 @@
     "unknownArtist": "Nepoznat izvođač",
     "unknownAlbum": "Nepoznat album"
   },
+  "browserSupport": {
+    "title": "Pregledač nije podržan",
+    "description": "MusicT.space zahteva {api} za pristup vašim lokalnim muzičkim datotekama.",
+    "apiName": "API za pristup sistemu datoteka",
+    "notSupported": "Vaš trenutni pregledač ne podržava ovu funkciju.",
+    "recommendedBrowsers": "Preporučeni pregledači za računar:",
+    "chrome": "Google Chrome (verzija 86 ili novija)",
+    "edge": "Microsoft Edge (verzija 86 ili novija)",
+    "opera": "Opera (verzija 72 ili novija)",
+    "note": "Napomena: Mobilni pregledači, Safari i Firefox trenutno ne podržavaju API za pristup sistemu datoteka."
+  },
   "sidebar": {
     "allSongs": "Sve pesme",
     "artist": "Izvođač",

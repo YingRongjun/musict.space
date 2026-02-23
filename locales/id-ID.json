@@ -8,6 +8,17 @@
     "unknownArtist": "Artis Tidak Dikenal",
     "unknownAlbum": "Album Tidak Dikenal"
   },
+  "browserSupport": {
+    "title": "Browser Tidak Didukung",
+    "description": "MusicT.space memerlukan {api} untuk mengakses file musik lokal Anda.",
+    "apiName": "File System Access API",
+    "notSupported": "Browser Anda saat ini tidak mendukung fitur ini.",
+    "recommendedBrowsers": "Browser Desktop yang Direkomendasikan:",
+    "chrome": "Google Chrome (versi 86 atau lebih baru)",
+    "edge": "Microsoft Edge (versi 86 atau lebih baru)",
+    "opera": "Opera (versi 72 atau lebih baru)",
+    "note": "Catatan: Browser seluler, Safari, dan Firefox saat ini tidak mendukung File System Access API."
+  },
   "sidebar": {
     "allSongs": "Semua Lagu",
     "artist": "Artis",

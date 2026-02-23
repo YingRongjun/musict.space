@@ -8,6 +8,17 @@
     "unknownArtist": "Okänd artist",
     "unknownAlbum": "Okänt album"
   },
+  "browserSupport": {
+    "title": "Webbläsaren stöds inte",
+    "description": "MusicT.space kräver {api} för att komma åt dina lokala musikfiler.",
+    "apiName": "File System Access API",
+    "notSupported": "Din nuvarande webbläsare stöder inte denna funktion.",
+    "recommendedBrowsers": "Rekommenderade webbläsare för dator:",
+    "chrome": "Google Chrome (version 86 eller senare)",
+    "edge": "Microsoft Edge (version 86 eller senare)",
+    "opera": "Opera (version 72 eller senare)",
+    "note": "Obs: Mobilwebbläsare, Safari och Firefox stöder för närvarande inte File System Access API."
+  },
   "sidebar": {
     "allSongs": "Alla låtar",
     "artist": "Artist",

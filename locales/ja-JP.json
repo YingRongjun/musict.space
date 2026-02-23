@@ -8,6 +8,17 @@
     "unknownArtist": "不明なアーティスト",
     "unknownAlbum": "不明なアルバム"
   },
+  "browserSupport": {
+    "title": "ブラウザがサポートされていません",
+    "description": "MusicT.space は {api} を使用してローカル音楽ファイルにアクセスします。",
+    "apiName": "ファイルシステムアクセス API",
+    "notSupported": "現在のブラウザはこの機能をサポートしていません。",
+    "recommendedBrowsers": "推奨デスクトップブラウザ：",
+    "chrome": "Google Chrome（バージョン86以降）",
+    "edge": "Microsoft Edge（バージョン86以降）",
+    "opera": "Opera（バージョン72以降）",
+    "note": "注意：モバイルブラウザ、Safari、Firefoxは現在ファイルシステムアクセス APIをサポートしていません。"
+  },
   "sidebar": {
     "allSongs": "すべての曲",
     "artist": "アーティスト",

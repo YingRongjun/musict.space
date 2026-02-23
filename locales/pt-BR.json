@@ -8,6 +8,17 @@
     "unknownArtist": "Artista desconhecido",
     "unknownAlbum": "Álbum desconhecido"
   },
+  "browserSupport": {
+    "title": "Navegador não suportado",
+    "description": "MusicT.space requer {api} para acessar seus arquivos de música locais.",
+    "apiName": "a API de acesso ao sistema de arquivos",
+    "notSupported": "Seu navegador atual não suporta este recurso.",
+    "recommendedBrowsers": "Navegadores de desktop recomendados:",
+    "chrome": "Google Chrome (versão 86 ou posterior)",
+    "edge": "Microsoft Edge (versão 86 ou posterior)",
+    "opera": "Opera (versão 72 ou posterior)",
+    "note": "Nota: Navegadores móveis, Safari e Firefox atualmente não suportam a API de acesso ao sistema de arquivos."
+  },
   "sidebar": {
     "allSongs": "Todas as músicas",
     "artist": "Artista",

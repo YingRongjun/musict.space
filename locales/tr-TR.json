@@ -8,6 +8,17 @@
     "unknownArtist": "Bilinmeyen Sanatçı",
     "unknownAlbum": "Bilinmeyen Albüm"
   },
+  "browserSupport": {
+    "title": "Tarayıcı Desteklenmiyor",
+    "description": "MusicT.space, yerel müzik dosyalarınıza erişmek için {api} gerektirir.",
+    "apiName": "Dosya Sistemi Erişim API'si",
+    "notSupported": "Mevcut tarayıcınız bu özelliği desteklemiyor.",
+    "recommendedBrowsers": "Önerilen Masaüstü Tarayıcıları:",
+    "chrome": "Google Chrome (sürüm 86 veya üzeri)",
+    "edge": "Microsoft Edge (sürüm 86 veya üzeri)",
+    "opera": "Opera (sürüm 72 veya üzeri)",
+    "note": "Not: Mobil tarayıcılar, Safari ve Firefox şu anda Dosya Sistemi Erişim API'sini desteklememektedir."
+  },
   "sidebar": {
     "allSongs": "Tüm Şarkılar",
     "artist": "Sanatçı",

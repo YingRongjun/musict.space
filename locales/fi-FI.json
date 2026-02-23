@@ -8,6 +8,17 @@
     "unknownArtist": "Tuntematon artisti",
     "unknownAlbum": "Tuntematon albumi"
   },
+  "browserSupport": {
+    "title": "Selainta ei tueta",
+    "description": "MusicT.space vaatii {api} paikallisten musiikkitiedostojen käyttöön.",
+    "apiName": "Tiedostojärjestelmän käyttöliittymän API",
+    "notSupported": "Nykyinen selaimesi ei tue tätä ominaisuutta.",
+    "recommendedBrowsers": "Suositellut työpöytäselaimet:",
+    "chrome": "Google Chrome (versio 86 tai uudempi)",
+    "edge": "Microsoft Edge (versio 86 tai uudempi)",
+    "opera": "Opera (versio 72 tai uudempi)",
+    "note": "Huom: Mobiiliselaimet, Safari ja Firefox eivät tällä hetkellä tue tiedostojärjestelmän käyttöliittymän API:a."
+  },
   "sidebar": {
     "allSongs": "Kaikki kappaleet",
     "artist": "Artisti",

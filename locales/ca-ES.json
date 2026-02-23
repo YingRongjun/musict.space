@@ -8,6 +8,17 @@
     "unknownArtist": "Artista desconegut",
     "unknownAlbum": "Àlbum desconegut"
   },
+  "browserSupport": {
+    "title": "Navegador no compatible",
+    "description": "MusicT.space requereix {api} per accedir als vostres fitxers de música locals.",
+    "apiName": "l'API d'accés al sistema de fitxers",
+    "notSupported": "El vostre navegador actual no admet aquesta funció.",
+    "recommendedBrowsers": "Navegadors d'escriptori recomanats:",
+    "chrome": "Google Chrome (versió 86 o posterior)",
+    "edge": "Microsoft Edge (versió 86 o posterior)",
+    "opera": "Opera (versió 72 o posterior)",
+    "note": "Nota: Els navegadors mòbils, Safari i Firefox actualment no admeten l'API d'accés al sistema de fitxers."
+  },
   "sidebar": {
     "allSongs": "Totes les cançons",
     "artist": "Artista",

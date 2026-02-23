@@ -8,6 +8,17 @@
     "unknownArtist": "Neznámý umělec",
     "unknownAlbum": "Neznámé album"
   },
+  "browserSupport": {
+    "title": "Prohlížeč není podporován",
+    "description": "MusicT.space vyžaduje {api} pro přístup k vašim lokálním hudebním souborům.",
+    "apiName": "API pro přístup k souborovému systému",
+    "notSupported": "Váš aktuální prohlížeč tuto funkci nepodporuje.",
+    "recommendedBrowsers": "Doporučené desktopové prohlížeče:",
+    "chrome": "Google Chrome (verze 86 nebo novější)",
+    "edge": "Microsoft Edge (verze 86 nebo novější)",
+    "opera": "Opera (verze 72 nebo novější)",
+    "note": "Poznámka: Mobilní prohlížeče, Safari a Firefox aktuálně nepodporují API pro přístup k souborovému systému."
+  },
   "sidebar": {
     "allSongs": "Všechny skladby",
     "artist": "Umělec",

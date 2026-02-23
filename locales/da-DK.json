@@ -8,6 +8,17 @@
     "unknownArtist": "Ukendt kunstner",
     "unknownAlbum": "Ukendt album"
   },
+  "browserSupport": {
+    "title": "Browser understøttes ikke",
+    "description": "MusicT.space kræver {api} for at få adgang til dine lokale musikfiler.",
+    "apiName": "File System Access API",
+    "notSupported": "Din nuværende browser understøtter ikke denne funktion.",
+    "recommendedBrowsers": "Anbefalede desktop-browsere:",
+    "chrome": "Google Chrome (version 86 eller nyere)",
+    "edge": "Microsoft Edge (version 86 eller nyere)",
+    "opera": "Opera (version 72 eller nyere)",
+    "note": "Bemærk: Mobile browsere, Safari og Firefox understøtter i øjeblikket ikke File System Access API."
+  },
   "sidebar": {
     "allSongs": "Alle sange",
     "artist": "Kunstner",

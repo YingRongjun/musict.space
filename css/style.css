@@ -25,6 +25,73 @@ body {
     overflow: hidden;
 }
 
+body.browser-unsupported .top-bar,
+body.browser-unsupported .app-container {
+    display: none !important;
+}
+
+.browser-not-supported {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.not-supported-content {
+    max-width: 600px;
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    padding: 48px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.not-supported-content h1 {
+    font-size: 32px;
+    color: var(--accent-color);
+    margin-bottom: 24px;
+}
+
+.not-supported-content p {
+    font-size: 16px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.browser-recommendations {
+    background: var(--bg-tertiary);
+    border-radius: 12px;
+    padding: 24px;
+    margin: 24px 0;
+    text-align: left;
+}
+
+.browser-recommendations h2 {
+    font-size: 18px;
+    color: var(--text-primary);
+    margin-bottom: 16px;
+}
+
+.browser-recommendations ul {
+    list-style: none;
+    padding: 0;
+}
+
+.browser-recommendations li {
+    padding: 8px 0;
+    color: var(--text-secondary);
+    font-size: 15px;
+}
+
+.not-supported-content .note {
+    font-size: 14px;
+    color: var(--text-secondary);
+    opacity: 0.8;
+    font-style: italic;
+}
+
 .top-bar {
     height: 80px;
     background-color: var(--bg-primary);

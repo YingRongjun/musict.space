@@ -8,6 +8,17 @@
     "unknownArtist": "未知艺术家",
     "unknownAlbum": "未知专辑"
   },
+  "browserSupport": {
+    "title": "浏览器不支持",
+    "description": "MusicT.space 需要 {api} 来访问您的本地音乐文件。",
+    "apiName": "文件系统访问 API",
+    "notSupported": "您当前的浏览器不支持此功能。",
+    "recommendedBrowsers": "推荐的桌面浏览器：",
+    "chrome": "Google Chrome（86 版或更高版本）",
+    "edge": "Microsoft Edge（86 版或更高版本）",
+    "opera": "Opera（72 版或更高版本）",
+    "note": "注意：移动端浏览器、Safari 和 Firefox 目前不支持文件系统访问 API。"
+  },
   "sidebar": {
     "allSongs": "全部歌曲",
     "artist": "艺术家",

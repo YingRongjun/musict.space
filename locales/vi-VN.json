@@ -8,6 +8,17 @@
     "unknownArtist": "Nghệ sĩ không xác định",
     "unknownAlbum": "Album không xác định"
   },
+  "browserSupport": {
+    "title": "Trình duyệt không được hỗ trợ",
+    "description": "MusicT.space yêu cầu {api} để truy cập các tệp nhạc cục bộ của bạn.",
+    "apiName": "API truy cập hệ thống tệp",
+    "notSupported": "Trình duyệt hiện tại của bạn không hỗ trợ tính năng này.",
+    "recommendedBrowsers": "Trình duyệt máy tính để bàn được khuyến nghị:",
+    "chrome": "Google Chrome (phiên bản 86 trở lên)",
+    "edge": "Microsoft Edge (phiên bản 86 trở lên)",
+    "opera": "Opera (phiên bản 72 trở lên)",
+    "note": "Lưu ý: Trình duyệt di động, Safari và Firefox hiện không hỗ trợ API truy cập hệ thống tệp."
+  },
   "sidebar": {
     "allSongs": "Tất cả bài hát",
     "artist": "Nghệ sĩ",

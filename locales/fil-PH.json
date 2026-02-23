@@ -8,6 +8,17 @@
     "unknownArtist": "Hindi Kilalang Artista",
     "unknownAlbum": "Hindi Kilalang Album"
   },
+  "browserSupport": {
+    "title": "Hindi Sinusuportahan ang Browser",
+    "description": "Ang MusicT.space ay nangangailangan ng {api} upang ma-access ang iyong mga lokal na file ng musika.",
+    "apiName": "File System Access API",
+    "notSupported": "Ang iyong kasalukuyang browser ay hindi sinusuportahan ang feature na ito.",
+    "recommendedBrowsers": "Mga Inirerekomendang Desktop Browser:",
+    "chrome": "Google Chrome (bersyon 86 o mas bago)",
+    "edge": "Microsoft Edge (bersyon 86 o mas bago)",
+    "opera": "Opera (bersyon 72 o mas bago)",
+    "note": "Tandaan: Ang mga mobile browser, Safari, at Firefox ay kasalukuyang hindi sinusuportahan ang File System Access API."
+  },
   "sidebar": {
     "allSongs": "Lahat ng Kanta",
     "artist": "Artista",

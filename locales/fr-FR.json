@@ -8,6 +8,17 @@
     "unknownArtist": "Artiste inconnu",
     "unknownAlbum": "Album inconnu"
   },
+  "browserSupport": {
+    "title": "Navigateur non pris en charge",
+    "description": "MusicT.space nécessite {api} pour accéder à vos fichiers musicaux locaux.",
+    "apiName": "l'API d'accès au système de fichiers",
+    "notSupported": "Votre navigateur actuel ne prend pas en charge cette fonctionnalité.",
+    "recommendedBrowsers": "Navigateurs de bureau recommandés :",
+    "chrome": "Google Chrome (version 86 ou ultérieure)",
+    "edge": "Microsoft Edge (version 86 ou ultérieure)",
+    "opera": "Opera (version 72 ou ultérieure)",
+    "note": "Remarque : Les navigateurs mobiles, Safari et Firefox ne prennent pas actuellement en charge l'API d'accès au système de fichiers."
+  },
   "sidebar": {
     "allSongs": "Toutes les chansons",
     "artist": "Artiste",

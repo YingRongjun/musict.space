@@ -16,6 +16,30 @@
     <script src="js/supported-languages.js"></script>
 </head>
 <body>
+    <div id="browserNotSupported" class="browser-not-supported" style="display: none;">
+        <div class="not-supported-content">
+            <h1 data-i18n="browserSupport.title">Browser Not Supported</h1>
+            <p data-i18n="browserSupport.description" data-i18n-api="browserSupport.apiName">MusicT.space requires the <strong>File System Access API</strong> to access your local music files.</p>
+            <p data-i18n="browserSupport.notSupported">Your current browser does not support this feature.</p>
+            <div class="browser-recommendations">
+                <h2 data-i18n="browserSupport.recommendedBrowsers">Recommended Desktop Browsers:</h2>
+                <ul>
+                    <li><strong>Google Chrome</strong> <span data-i18n="browserSupport.chrome">(version 86 or later)</span></li>
+                    <li><strong>Microsoft Edge</strong> <span data-i18n="browserSupport.edge">(version 86 or later)</span></li>
+                    <li><strong>Opera</strong> <span data-i18n="browserSupport.opera">(version 72 or later)</span></li>
+                </ul>
+            </div>
+            <p class="note" data-i18n="browserSupport.note">Note: Mobile browsers, Safari and Firefox do not currently support the File System Access API.</p>
+        </div>
+    </div>
+    <script>
+        (function() {
+            if (!('showOpenFilePicker' in window)) {
+                document.getElementById('browserNotSupported').style.display = 'flex';
+                document.body.classList.add('browser-unsupported');
+            }
+        })();
+    </script>
     <header class="top-bar">
         <div class="top-bar-left">
             <div class="logo-container">

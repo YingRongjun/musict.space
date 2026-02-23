@@ -8,6 +8,17 @@
     "unknownArtist": "ศิลปินที่ไม่รู้จัก",
     "unknownAlbum": "อัลบั้มที่ไม่รู้จัก"
   },
+  "browserSupport": {
+    "title": "เบราว์เซอร์ไม่รองรับ",
+    "description": "MusicT.space ต้องการ {api} เพื่อเข้าถึงไฟล์เพลงในเครื่องของคุณ",
+    "apiName": "File System Access API",
+    "notSupported": "เบราว์เซอร์ปัจจุบันของคุณไม่รองรับฟีเจอร์นี้",
+    "recommendedBrowsers": "เบราว์เซอร์บนเดสก์ท็อปที่แนะนำ:",
+    "chrome": "Google Chrome (เวอร์ชัน 86 หรือใหม่กว่า)",
+    "edge": "Microsoft Edge (เวอร์ชัน 86 หรือใหม่กว่า)",
+    "opera": "Opera (เวอร์ชัน 72 หรือใหม่กว่า)",
+    "note": "หมายเหตุ: เบราว์เซอร์บนมือถือ, Safari และ Firefox ไม่รองรับ File System Access API ในขณะนี้"
+  },
   "sidebar": {
     "allSongs": "เพลงทั้งหมด",
     "artist": "ศิลปิน",

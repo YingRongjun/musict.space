@@ -8,6 +8,17 @@
     "unknownArtist": "Onbekende artiest",
     "unknownAlbum": "Onbekend album"
   },
+  "browserSupport": {
+    "title": "Browser niet ondersteund",
+    "description": "MusicT.space vereist {api} om toegang te krijgen tot uw lokale muziekbestanden.",
+    "apiName": "de File System Access API",
+    "notSupported": "Uw huidige browser ondersteunt deze functie niet.",
+    "recommendedBrowsers": "Aanbevolen desktopbrowsers:",
+    "chrome": "Google Chrome (versie 86 of hoger)",
+    "edge": "Microsoft Edge (versie 86 of hoger)",
+    "opera": "Opera (versie 72 of hoger)",
+    "note": "Let op: Mobiele browsers, Safari en Firefox ondersteunen de File System Access API momenteel niet."
+  },
   "sidebar": {
     "allSongs": "Alle nummers",
     "artist": "Artiest",

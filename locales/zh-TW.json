@@ -8,6 +8,17 @@
     "unknownArtist": "未知藝術家",
     "unknownAlbum": "未知專輯"
   },
+  "browserSupport": {
+    "title": "瀏覽器不支援",
+    "description": "MusicT.space 需要 {api} 來存取您的本機音樂檔案。",
+    "apiName": "檔案系統存取 API",
+    "notSupported": "您目前的瀏覽器不支援此功能。",
+    "recommendedBrowsers": "推薦的桌面瀏覽器：",
+    "chrome": "Google Chrome（86 版或更高版本）",
+    "edge": "Microsoft Edge（86 版或更高版本）",
+    "opera": "Opera（72 版或更高版本）",
+    "note": "注意：行動端瀏覽器、Safari 和 Firefox 目前不支援檔案系統存取 API。"
+  },
   "sidebar": {
     "allSongs": "全部歌曲",
     "artist": "藝術家",

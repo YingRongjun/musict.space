@@ -199,7 +199,15 @@ class I18n {
     updateAllElements() {
         document.querySelectorAll('[data-i18n]').forEach(el => {
             const key = el.getAttribute('data-i18n');
-            el.textContent = this.t(key);
+            const apiKey = el.getAttribute('data-i18n-api');
+            
+            if (apiKey) {
+                const text = this.t(key);
+                const apiName = this.t(apiKey);
+                el.innerHTML = text.replace('{api}', `<strong>${apiName}</strong>`);
+            } else {
+                el.textContent = this.t(key);
+            }
         });
 
         document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {

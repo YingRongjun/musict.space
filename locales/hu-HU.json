@@ -8,6 +8,17 @@
     "unknownArtist": "Ismeretlen előadó",
     "unknownAlbum": "Ismeretlen album"
   },
+  "browserSupport": {
+    "title": "A böngésző nem támogatott",
+    "description": "A MusicT.space számára {api} szükséges a helyi zenefájlok eléréséhez.",
+    "apiName": "Fájlrendszer-hozzáférési API",
+    "notSupported": "A jelenlegi böngészője nem támogatja ezt a funkciót.",
+    "recommendedBrowsers": "Ajánlott asztali böngészők:",
+    "chrome": "Google Chrome (86-os vagy újabb verzió)",
+    "edge": "Microsoft Edge (86-os vagy újabb verzió)",
+    "opera": "Opera (72-es vagy újabb verzió)",
+    "note": "Megjegyzés: A mobil böngészők, a Safari és a Firefox jelenleg nem támogatják a Fájlrendszer-hozzáférési API-t."
+  },
   "sidebar": {
     "allSongs": "Összes dal",
     "artist": "Előadó",

@@ -995,10 +995,6 @@ class FileSystemHandler {
 
     async importFromFolder(onProgress = null, onComplete = null) {
         try {
-            if (!window.showDirectoryPicker) {
-                throw new Error(i18n.t('errors.browserNotSupported'));
-            }
-
             this.cancelImport = false;
             const dirHandle = await window.showDirectoryPicker();
             console.log(`Starting folder scan: ${dirHandle.name}`);
@@ -1076,10 +1072,6 @@ class FileSystemHandler {
 
     async importFromFiles(onProgress = null, onComplete = null) {
         try {
-            if (!window.showOpenFilePicker) {
-                throw new Error(i18n.t('errors.browserNotSupportedFiles'));
-            }
-
             this.cancelImport = false;
             const fileHandles = await window.showOpenFilePicker({
                 multiple: true,

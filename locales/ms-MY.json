@@ -8,6 +8,17 @@
     "unknownArtist": "Artis Tidak Diketahui",
     "unknownAlbum": "Album Tidak Diketahui"
   },
+  "browserSupport": {
+    "title": "Penyemak Imbas Tidak Disokong",
+    "description": "MusicT.space memerlukan {api} untuk mengakses fail muzik tempatan anda.",
+    "apiName": "API Akses Sistem Fail",
+    "notSupported": "Penyemak imbas semasa anda tidak menyokong ciri ini.",
+    "recommendedBrowsers": "Penyemak Imbas Desktop yang Disyorkan:",
+    "chrome": "Google Chrome (versi 86 atau lebih baru)",
+    "edge": "Microsoft Edge (versi 86 atau lebih baru)",
+    "opera": "Opera (versi 72 atau lebih baru)",
+    "note": "Nota: Penyemak imbas mudah alih, Safari dan Firefox pada masa ini tidak menyokong API Akses Sistem Fail."
+  },
   "sidebar": {
     "allSongs": "Semua Lagu",
     "artist": "Artis",
