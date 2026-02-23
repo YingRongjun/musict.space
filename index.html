@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" translate="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
     <title>MusicT.space</title>
     <link rel="icon" type="image/jpeg" href="favicon.jpg">
     <script>
         (function() {
+            var savedLang = localStorage.getItem('musicPlayerLanguage');
+            if (savedLang) {
+                document.documentElement.lang = savedLang;
+            }
             var savedVolume = localStorage.getItem('musicPlayerVolume');
             var volume = savedVolume !== null ? parseFloat(savedVolume) : 0.7;
             document.documentElement.style.setProperty('--initial-volume', (volume * 100) + '%');
