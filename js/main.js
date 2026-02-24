@@ -1013,6 +1013,13 @@ class MusicPlayer {
         
         this.filterPlaylist();
         
+        if (this.currentTrack) {
+            const trackIndex = this.filteredPlaylist.findIndex(song => song.id === this.currentTrack.id);
+            if (trackIndex !== -1) {
+                this.currentPage = Math.floor(trackIndex / this.pageSize) + 1;
+            }
+        }
+
         const titles = {
             'all': i18n.t('contentTitle.allSongs'),
             'artist': i18n.t('contentTitle.artist'),
@@ -1089,7 +1096,6 @@ class MusicPlayer {
             });
         }
         
-        this.currentPage = 1;
         this.renderSongList();
         
         const contentTitle = document.getElementById('contentTitle');
@@ -1627,9 +1633,14 @@ class MusicPlayer {
             }
         });
         
+        if (this.currentTrack) {
+            const trackIndex = this.filteredPlaylist.findIndex(song => song.id === this.currentTrack.id);
+            if (trackIndex !== -1) {
+                this.currentPage = Math.floor(trackIndex / this.pageSize) + 1;
+            }
+        }
         document.getElementById('contentTitle').textContent = `${type === 'artist' ? i18n.t('contentTitle.artist') : i18n.t('contentTitle.album')}: ${value} (${i18n.t('contentTitle.songCount', { count: this.filteredPlaylist.length })})`;
         
-        this.restoreLastSongPage();
         this.renderSongList();
     }
 
