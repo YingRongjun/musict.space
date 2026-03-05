@@ -34,7 +34,8 @@ git clone https://github.com/YingRongjun/musict.space.git
 cd musict.space
 
 # Run a local server
-# This is a pure static frontend project, you only need a simple HTTP server. For example, using Python:
+# This is a pure static frontend project, you only need a simple HTTP server.
+# For example, using Python:
 python -m http.server 8000
 ```
 Then open http://localhost:8000 in your browser.
